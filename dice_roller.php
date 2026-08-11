@@ -13,10 +13,10 @@ $page = 'dice_roller';
         <script src="assets/js/dice_roller.js" defer></script>
         <style>
 <?php 
+        addInlineCSS($page);
         lightMode($_SESSION['lightMode']);
         language($_SESSION['lang']);
         lightModeButtons($_SESSION['lightMode']);
-        addInlineCSS($page);
 ?>
         </style>
     </head>

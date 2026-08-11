@@ -12,10 +12,10 @@ $page = 'item_picker';
         <script type="text/javascript" src="assets/js/itemPicker.js"></script>
         <style>
 <?php 
+        addInlineCSS($page);
         lightMode($_SESSION['lightMode']);
         language($_SESSION['lang']);
         lightModeButtons($_SESSION['lightMode']);
-        addInlineCSS($page);
 ?>
         </style>
     </head>

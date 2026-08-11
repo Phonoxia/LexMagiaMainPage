@@ -12,9 +12,9 @@ include 'assets/php/functions.php';
         <link rel="preload" as="image" href="/assets/images/bgs/bg3.webp" fetchpriority="high">
         <style>
         <?php 
+        addInlineCSS($page);
         lightMode($_SESSION['lightMode']);
         language($_SESSION['lang']);
-        addInlineCSS($page);
         ?>
         </style>
         <script src="/assets/js/bgChange.js" defer></script>

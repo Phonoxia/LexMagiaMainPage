@@ -11,9 +11,9 @@ $page = 'downloads';
         <title>Project Steam</title>
         <style>
         <?php 
+        addInlineCSS($page);
         lightMode($_SESSION['lightMode']);
         language($_SESSION['lang']);
-        addInlineCSS($page);
         ?>
         </style>
     </head>

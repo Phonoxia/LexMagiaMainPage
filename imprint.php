@@ -12,9 +12,9 @@ $page = 'imprint';
         <script src="assets/js/imprint.js" defer></script>
         <style>
         <?php 
+        addInlineCSS($page);
         lightMode($_SESSION['lightMode']);
         language($_SESSION['lang']);
-        addInlineCSS($page);
         ?>
         </style>
     </head>
