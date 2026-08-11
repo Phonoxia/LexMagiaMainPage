@@ -280,7 +280,7 @@ main .productContainer {
     justify-content: center;
 }
 main .product {
-    background-image: url("../images/psbg.jpg");
+    background-image: url("/assets/images/psbg.jpg");
     background-position: center;
     background-size: cover;
     height: 35vw;
