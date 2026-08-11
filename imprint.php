@@ -2,6 +2,7 @@
 session_start();
 include 'assets/php/nav.php';
 include 'assets/php/functions.php';
+$page = 'imprint';
 ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -13,11 +14,12 @@ include 'assets/php/functions.php';
         <?php 
         lightMode($_SESSION['lightMode']);
         language($_SESSION['lang']);
+        addInlineCSS($page);
         ?>
         </style>
     </head>
     <body>
-        <?php nav('imprint'); ?>
+        <?php nav($page); ?>
         <main>
             <section>
                 <h2 class="de">Impressum</h2>

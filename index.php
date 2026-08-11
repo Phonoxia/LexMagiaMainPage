@@ -1,5 +1,6 @@
 <?php
 session_start();
+$page = 'home';
 include 'assets/php/nav.php';
 include 'assets/php/functions.php';
 ?>
@@ -8,29 +9,32 @@ include 'assets/php/functions.php';
     <head>
         <?php include 'assets/php/head.php'?>
         <title>Project Steam</title>
-        <link rel="preload" as="image" href="/assets/images/bgs/bg1.jpg" fetchpriority="high">
+        <link rel="preload" as="image" href="/assets/images/bgs/bg3.webp" fetchpriority="high">
         <style>
         <?php 
         lightMode($_SESSION['lightMode']);
         language($_SESSION['lang']);
+        addInlineCSS($page);
         ?>
         </style>
         <script src="/assets/js/bgChange.js" defer></script>
     </head>
     <body>
-        <?php nav('home'); ?>
+        <?php nav($page); ?>
         <header>
             <div class="bgContainer">
-                <div class="bg bgActive" id="bg1" style="opacity: 1;"></div>
+                <div class="bg" id="bg1"></div>
                 <div class="bg" id="bg2"></div>
                 <div class="bg" id="bg3"></div>
-                <div class="bg" id="bg3"></div>
+                <div class="bg" id="bg4"></div>
+                <noscript><div class="bg bgActive" id="bg3" style="opacity: 1;"></div></noscript>
             </div>
             <div class="textContainer">
                 <h1>Project Steam</h1>
                 <h2 class="de">Ein Steampunk Rollenspiel</h2>
                 <h2 class="en">A Steampunk RPG</h2>
                 <h3>Pre-Alpha</h3>
+                
             </div>
         </header>
         <main>

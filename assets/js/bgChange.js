@@ -7,6 +7,9 @@ window.onload = function () {
 //Initialize Changing of Backgrounds
 function init() {
     ["mousemove", "keydown", "scroll", "touchstart"].forEach(event=>{document.addEventListener(event, bgChangeTimer);});
+    var bgNum = document.getElementsByClassName("bg").length;
+    var initBG = document.getElementById("bg"+Math.floor(Math.random() * bgNum));
+    displayBG(initBG);
 }
 
 //Changes BG after timeToBgChange, only when no Input was detected.
@@ -28,7 +31,7 @@ function changeBG() {
     if(!newActive) {
         newActive = document.getElementsByClassName("bg")[0];
     }
-    
+
     displayBG(currentActive, newActive);
 }
 

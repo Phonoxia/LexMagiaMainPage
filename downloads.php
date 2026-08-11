@@ -2,6 +2,7 @@
 session_start();
 include 'assets/php/functions.php';
 include 'assets/php/nav.php';
+$page = 'downloads';
 ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -12,11 +13,12 @@ include 'assets/php/nav.php';
         <?php 
         lightMode($_SESSION['lightMode']);
         language($_SESSION['lang']);
+        addInlineCSS($page);
         ?>
         </style>
     </head>
     <body>
-        <?php nav('downloads'); ?>
+        <?php nav($page); ?>
         <main>
             <section>
                 <h2>Downloads</h2>

@@ -2,6 +2,7 @@
 session_start();
 include 'assets/php/nav.php';
 include 'assets/php/functions.php';
+$page = 'item_picker';
 ?>
 <html>
     <head>
@@ -14,11 +15,12 @@ include 'assets/php/functions.php';
         lightMode($_SESSION['lightMode']);
         language($_SESSION['lang']);
         lightModeButtons($_SESSION['lightMode']);
+        addInlineCSS($page);
 ?>
         </style>
     </head>
     <body>
-        <?php nav('item_picker'); ?>
+        <?php nav($page); ?>
         <main class="mainContainer">
             <h1 class="de">Project Steam - Objektgenerator</h1>
             <h1 class="en">Project Steam - Object Generator</h1>

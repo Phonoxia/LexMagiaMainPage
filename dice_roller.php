@@ -2,6 +2,7 @@
 session_start();
 include 'assets/php/nav.php';
 include 'assets/php/functions.php';
+$page = 'dice_roller';
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,11 +16,12 @@ include 'assets/php/functions.php';
         lightMode($_SESSION['lightMode']);
         language($_SESSION['lang']);
         lightModeButtons($_SESSION['lightMode']);
+        addInlineCSS($page);
 ?>
         </style>
     </head>
     <body>
-        <?php nav('dice_roller'); ?>
+        <?php nav($page); ?>
         <main class="mainContainer">
             <h1 class="de">
                 Project Steam - Würfelapp - Early Alpha

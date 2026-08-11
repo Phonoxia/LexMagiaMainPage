@@ -10,6 +10,47 @@ if(isset($_POST['lightMode'])) {
     $_SESSION['lightMode'] = !$_SESSION['lightMode'];
 }
 
+// Add critical CSS to inline.
+// Needs a page to work, displays ".no-inline{} otherwise.
+// Outputs .no-css{} on error.
+function addInlineCSS($page = 'none') {
+    //Get main css file that needs to be placed inline
+    $cssRaw = file_get_contents(__DIR__ . "/../css/style.css", true);
+    //Convert the raw string into an array, where the key is the #region and the value is the CSS of that section.
+    $cssArr = explode("/*#region ", $cssRaw);
+    foreach($cssArr as $value) {
+        $value = str_replace("/*#endregion","",$value);
+        $pairArr = explode("*/", $value);
+        $pairArr[0] && $css[$pairArr[0]] = $pairArr[1];
+    }
+    if(!$css) {
+        echo ".no-css{}";
+        return;
+    }
+    //Output inline CSS.
+    echo $css['Init'].$css['General'].$css['Navbar'];
+    switch($page) {
+        case 'home':
+            echo $css['Header'].$css['Main'].$css['Footer'];
+        break;
+        case 'downloads':
+            echo $css['Main'].$css['Products'].$css['Footer'];
+        break;
+        case 'imprint':
+            echo $css['Main'].$css['Imprint'].$css['Footer'];
+        break;
+        case 'item_picker':
+            echo $css['Main'];
+        break;
+        case 'dice_roller':
+            echo $css['Main'];
+        break;
+        default:
+            echo ".no-inline{}";
+        break;
+    }
+}
+
 // Outputs LightMode CSS. This is only General lightMode CSS, should take the $_SESSION['lightMode'] as arg
 // For site-specific CSS, see Special LightMode CSS
 function lightMode($lightMode = false) {
