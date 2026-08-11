@@ -1,0 +1,1985 @@
+{
+"Waffen": {
+    "Nahkampfwaffen": {
+        "Faustmesser": {
+            "Beschreibung:": "Das Faustmesser ist besteht aus einem horizontalem Griff, der wie ein Schlagring gehalten wird. Aus diesem heraus ragt ein kleines Messer, welches entscheidende Vorteile in Faustkämpfen geben kann.",
+            "Grundschaden:": "1W6 + Erfolge",
+            "Kosten:": "20S",
+            "Gewicht:": "0,25Kg",
+            "Modifikator:": "-",
+            "Kategorie:": "Faustwaffen",
+            "Kampftalent:": "Faustkampf"
+        },
+        "Schlagring": {
+            "Beschreibung:": "-",
+            "Grundschaden:": "1W3 + Erfolge",
+            "Kosten:": "2S",
+            "Gewicht:": "0,1Kg",
+            "Modifikator:": "-",
+            "Kategorie:": "Faustwaffen",
+            "Kampftalent:": "Faustkampf"
+        },
+        "Tigerkralle": {
+            "Beschreibung:": "Mehrere Klauen ragen aus dem Griff der Tigerkralle hervor. Diese ca. 20cm langen krallen ragen aus der Hand hervor und ermöglichen unterschiedliche Manöver.",
+            "Grundschaden:": "1W3+1 + Erfolge",
+            "Kosten:": "10S",
+            "Gewicht:": "0,25Kg",
+            "Modifikator:": "-",
+            "Kategorie:": "Faustwaffen",
+            "Kampftalent:": "Faustkampf",
+            "Besonderes:": "Die Tigerkralle kann beim Ausweichen ebenfalls einen Schaden von 1W3 verursachen. Dies geschieht, wenn die Angriffsprobe des Gegners misslingt."
+        },
+        "Glefe": {
+            "Grundschaden": "1W6+3 + Erfolge",
+            "Kosten": "120S",
+            "Gewicht": "2Kg",
+            "Länge": "250-300 cm",
+            "Modifikator": "-",
+            "Kategorie": "Langhiebwaffen",
+            "Kampftalent": "Hiebwaffen",
+            "Besonderes": ""
+        },
+        "Hellebarde": {
+            "Grundschaden": "1W6+4 + Erfolge",
+            "Kosten": "120S",
+            "Gewicht": "2Kg",
+            "Länge": "200-230 cm",
+            "Kategorie": "Langhiebwaffen",
+            "Modifikator": "+1 MW",
+            "Kampftalent": "Hiebwaffen",
+            "Besonderes": "-"
+        },
+        "Streitaxt": {
+            "Grundschaden": "1W6+5 + Erfolge",
+            "Kosten": "120S",
+            "Gewicht": "2,5Kg",
+            "Länge": "50-100 cm",
+            "Kategorie": "Wuchtwaffen",
+            "Modifikator": "+1 SW",
+            "Kampftalent": "Hiebwaffen",
+            "Besonderes": "-"
+        },
+        "Jagdmesser": {
+            "Beschreibung": "Ein vielseitiges, mittellanges Messer welches vom Ausnehmen bis zur Selbstverteidigung für alles mögliche genutzt wird.",
+            "Grundschaden": "1W6 + Erfolge",
+            "Kosten": "30S",
+            "Gewicht": "0,5Kg",
+            "Länge": "25cm",
+            "Modifikator": "-",
+            "Kategorie": "Messer",
+            "Kampftalent": "Messer & Dolche",
+            "Besonderes": "Dolche müssen nicht gezogen werden, sofern sie bei Beginn des Kampfes eingesetzt werden, gelten sie direkt als gezogen"
+        },
+        "Hirschfänger": {
+            "Beschreibung": "Ein besonders großes und wuchtiges Messer mit kleinen kuhlen an der Seite, die bei einem Treffer in Lunge oder Herz großen Schaden anrichten.",
+            "Grundschaden": "1W6 + 3 + Erfolge",
+            "Kosten": "40S",
+            "Gewicht": "0,5 Kg",
+            "Länge": "30 cm",
+            "Modifikator": "+1 MW",
+            "Kategorie": "Messer",
+            "Kampftalent": "Messer & Dolche",
+            "Besonderes": "Dolche müssen nicht gezogen werden, sofern sie bei Beginn des Kampfes eingesetzt werden, gelten sie direkt als gezogen"
+        },
+        "Perforo": {
+            "Grundschaden": "1W6+1 + Erfolge",
+            "Kosten": "40S",
+            "Gewicht": "0.25kg",
+            "Länge": "20cm",
+            "Modifikator": "-",
+            "Kategorie": "Dolche",
+            "Kampftalent": "Messer & Dolche",
+            "Besonderes": "Dolche müssen nicht gezogen werden, sofern sie bei Beginn des Kampfes eingesetzt werden, gelten sie direkt als gezogen."
+        },
+        "Umbravul": {
+            "Beschreibung": "Die beliebte Waffe der Schatten ist in vielen Modifikationen, je nach Bedürfnissen des Anwenders, zu finden. Hier zu sehen ist eine Adorianische Variante, die in Elvera beliebt ist.",
+            "Grundschaden": "1W6+4 + Erfolge",
+            "Kosten": "130S",
+            "Gewicht": "0,25Kg",
+            "Länge": "20cm",
+            "Modifikator": "+1 SW",
+            "Kategorie": "Dolche",
+            "Kampftalent": "Messer & Dolche",
+            "Besonderes": "Dolche müssen nicht gezogen werden, sofern sie bei Beginn des Kampfes eingesetzt werden, gelten sie direkt als gezogen. Ein Umbravul hat eine geheime Kammer und eine Klinge mit Rohr, durch welches Gift direkt in eine Wunde geführt werden kann. Das Auffüllen kostet dabei 2 Aktionen und jegliches flüssiges Gift kann genutzt werden."
+        },
+        "Chepesh": {
+            "Beschreibung": "Das Sichelschwert ist eine alte Erfindung der Feren und wird bis heute in traditionellen Ritualen, aber auch im krieg eingesetzt.",
+            "Grundschaden": "1W6+3 + Erfolge",
+            "Kosten": "160S",
+            "Gewicht": "1,5Kg",
+            "Länge": "50-60 cm",
+            "Modifikator": "+1 MW",
+            "Kategorie": "Sichelschwerter",
+            "Kampftalent": "Schwerter",
+            "Besonderes": "Beim kampf gegen Gegner mit einem Schild erhält das Chepesh 1 BW."
+        },
+        "Collare": {
+            "Beschreibung": "Das Collare ist eine beliebte Waffe bei all jenen, die ihre wahren Intentionen verbergen oder immer vorbereitet sein wollen. Das Schwert hat in einem eingeklappten Zustand nur die Größe der Hand eines Erwachsenen, kann jedoch mit dem Hochklappen des Handschutzes zu einer ca. 70 cm langen Klinge erweitert werden, die zwar nicht so stabil wie pures Stahl, aber immer noch überaus effektiv ist. Das Einklappen ist bei älteren Modellen zwar noch einiges an Arbeit, moderne oder magische Lösungen komprimieren sich jedoch häufig von selbst.",
+            "Grundschaden": "1W6 + 2 + Erfolge",
+            "Kosten": "400S",
+            "Gewicht": "1Kg",
+            "Länge": "50-80cm",
+            "Modifikator": "-",
+            "Kategorie": "Collare",
+            "Kampftalent": "Schwerter",
+            "Besonderes": "Das Collare kann in einem Manöver oder einer Freien Reaktion ausgefahren und gezogen werden. Wird diese Option genutzt, muss jedoch eine Probe auf Agilität mit Schwierigkeit 1 abgelegt werden, um nicht vom Rückstoß umgeworfen zu werden oder das Collare fallen zu lassen."
+        },
+        "Ensicul": {
+            "Beschreibung": "Die dünne und gerade Klinge mit spitzem Ort machen das Ensicul zu einer Idealen Stichwaffe, die zwar wenig Schaden von alleine anrichten kann, aufgrund ihrer Geschwindigkeit jedoch überaus gefährlich ist. Die relative Stärke der Klinge erlaubt jedoch auch die Verwendung als Hiebwaffe.",
+            "Grundschaden": "1W6+1 + Erfolge",
+            "Kosten": "140S",
+            "Gewicht": "1Kg",
+            "Länge": "120cm",
+            "Modifikator": "-",
+            "Kategorie": "Stichschwerter",
+            "Kampftalent": "Schwerter",
+            "Besonderes": "Im Zweikampf ist die Führerin des Ensicul immer zuerst an der Reihe. Ihre Initiative wird bis auf den benötigten Wert erhöht."
+        },
+        "Gladius": {
+            "Beschreibung": "Als das wichtigste Kampfschwert der Wächter ist der Gladius wohl die am meisten reproduzierte Waffe Gehennas. Es vereint die Vielseitigkeit eines Kurzschwertes mit den offensiven Kapazitäten eines Langschwerts und steht den meisten anderen Schwertern in nichts nach.",
+            "Grundschaden": "1W6+2 + Erfolge",
+            "Kosten": "80S",
+            "Gewicht": "1,5Kg",
+            "Länge": "55 cm",
+            "Modifikator": "-",
+            "Kategorie": "Schwerter",
+            "Kampftalent": "Schwerter",
+            "Besonderes": "-"
+        },
+        "Kurzschwert": {
+            "Beschreibung": "Eine variante des Gladius, die häufig mit etwas längerer Klinge von einigen Wächtern präferiert wird.",
+            "Grundschaden": "1W6+2 + Erfolge",
+            "Kosten": "100S",
+            "Gewicht": "1Kg",
+            "Länge": "50-80 cm",
+            "Modifikator": "-",
+            "Kategorie": "Schwerter",
+            "Kampftalent": "Schwerter",
+            "Besonderes": "-"
+        },
+        "Langschwert": {
+            "Beschreibung": "Ein besonders langes Schwert, welches je nach Situation ein- oder beidhändig geführt werden kann.",
+            "Grundschaden": "1W6+3 + Erfolge",
+            "Kosten": "120S",
+            "Gewicht": "2,5Kg",
+            "Länge": "100-130cm",
+            "Modifikator": "+1 MW",
+            "Kategorie": "Langschwerter",
+            "Kampftalent": "Schwerter",
+            "Besonderes": "-"
+        },
+        "Säbel": {
+            "Beschreibung": "Grundschaden s = 1W6+2 + Erfolge",
+            "Kosten": "120S",
+            "Gewicht": "2Kg",
+            "Länge": "70-100cm",
+            "Modifikator": "-",
+            "Kategorie": "Krummschwerter",
+            "Kampftalent": "Schwerter",
+            "Besonderes": "-"
+        },
+        "Vulnus": {
+            "Beschreibung": "Das Vulnus ist eine Zweihandwaffe mit einer gebogenen, einseitigen Klinge. Diese Biegung geht, anders als beim Säbel, auch in den Griff über.",
+            "Grundschaden": "1W6+2 + Erfolge",
+            "Kosten": "150S",
+            "Gewicht": "1,5Kg",
+            "Länge": "60-90 cm",
+            "Modifikator": "+1 SW",
+            "Kategorie": "Krummschwerter",
+            "Kampftalent": "Schwerter",
+            "Besonderes": "Das Vulnus wird in der Regel Zweihändig geführt. Wird es Einhändig benutzt, addiere +2 Schwierigkeitswürfel auf den Modifikator."
+        },
+        "Zweihänder": {
+            "Grundschaden": "1W6+4 + Erfolge",
+            "Kosten": "200S",
+            "Gewicht": "3Kg",
+            "Länge": "100-140 cm",
+            "Modifikator": "+1 MW",
+            "Kategorie": "Langschwerter",
+            "Kampftalent": "Schwerter",
+            "Besonderes": "Der Zweihänder muss zweihändig geführt werden. Aufgrund seiner größe ist ST 2 erforderlich, um ihn einzusetzen."
+        },
+        "Bärenspieß": {
+            "Beschreibung": "Der Bärenspieß ist ein recht langer speer, der zur Jagd auf Bären erfunden wurde und eine horizontalen Knäbel hat, der tiefes Eindringen der Waffe verhindert.",
+            "Grundschaden": "1W6+3 + Erfolge",
+            "Kosten": "140S",
+            "Gewicht": "1,5Kg",
+            "Länge": "230cm cm",
+            "Modifikator": "+1MW",
+            "Kategorie": "Speere",
+            "Kampftalent": "Stäbe",
+            "Besonderes": "-"
+        },
+        "Hasta": {
+            "Grundschaden": "1W6+2 + Erfolge",
+            "Kosten": "90S",
+            "Gewicht": "1Kg",
+            "Länge": "240 cm",
+            "Modifikator": "-",
+            "Kategorie": "Speere",
+            "Kampftalent": "Stäbe",
+            "Besonderes": "-"
+        },
+        "Speer(Nahkampf)": {
+            "Grundschaden": "1W6+2 + Erfolge",
+            "Kosten": "80S",
+            "Gewicht": "1,5Kg",
+            "Länge": "140-200 cm",
+            "Modifikator": "-",
+            "Kategorie": "Speere",
+            "Kampftalent": "Stäbe",
+            "Besonderes": "Der Speer kann auch als Wurfspeer verwendet werden. Mehr dazu findest du unter Wurfwaffen, bei Speer(Wurf)"
+        },
+        "Spieß": {
+            "Grundschaden": "1W6+3",
+            "Kosten": "130S",
+            "Gewicht": "3Kg",
+            "Länge": "5-6 M",
+            "Modifikator": "+2 MW",
+            "Kategorie": "Langspeere",
+            "Kampftalent": "Stäbe",
+            "Besonderes": "Der Spieß kann aufgrund seiner Länge bis zu 6 Meter entfernte Gegner problemlos im Nahkampf erreichen."
+        },
+        "Wanderstab": {
+            "Grundschaden": "1W6+1 + Erfolge",
+            "Kosten": "80S",
+            "Gewicht": "1Kg",
+            "Länge": "150-200 cm",
+            "Modifikator": "-",
+            "Kategorie": "Stäbe",
+            "Kampftalent": "Stäbe",
+            "Besonderes": "-"
+        }
+        },
+    "Fernkampfwaffen": {
+        "Leichte Armbrust": {
+        "Grundschaden": "2W6+3 + Erfolge",
+        "Kosten": "140S",
+        "Gewicht": "3Kg",
+        "Reichweite": "50/75",
+        "Munition": "Bolzen",
+        "Geschwindigkeit": "2 Aktionen(1. Aktion s = Schuss, 2. Aktion s = Nachladen)",
+        "Modifikator": "+1 SW",
+        "Kategorie": "Armbrüste",
+        "Kampftalent": "Armbrüste & Bögen",
+        "Besonderes": "-"
+        },
+        "Kurzbogen": {
+            "Grundschaden": "1W6 + Erfolge",
+            "Kosten": "50S",
+            "Gewicht": "0.4Kg",
+            "Reichweite": "50/60",
+            "Munition": "Pfeile",
+            "Geschwindigkeit": "1 Aktion(1. Aktion s = Schuss, 1. Manöver s = Nachladen)",
+            "Modifikator": "+1 BW",
+            "Kategorie": "Bögen",
+            "Kampftalent": "Armbrüste & Bögen",
+            "Besonderes": "Ist der Charakter überrascht, muss zuerst die “Nachladen” Aktion genutzt werden. Aufgrund seiner sehr geringen Größe kann der Kurzbogen problemlos in engen Umgebungen eingesetzt werden. Dadurch verursachte SW oder MW werden nicht beachtet."
+        },
+        "Jagdbogen": {
+            "Grundschaden": "1W6+1 + Erfolge",
+            "Kosten": "60S",
+            "Gewicht": "0.5Kg",
+            "Reichweite": "50/60",
+            "Munition": "Pfeile",
+            "Geschwindigkeit": "1 Aktion(1. Aktion s = Schuss, 1. Manöver s = Nachladen)",
+            "Modifikator": "-",
+            "Kategorie": "Bögen",
+            "Kampftalent": "Armbrüste & Bögen",
+            "Besonderes": "Ist der Charakter überrascht, muss zuerst die “Nachladen” Aktion genutzt werden. Aufgrund seiner geringen Größe kann der Jagdbogen auch in engen Umgebungen eingesetzt werden. Dadurch verursachte SW oder MW werden um 1 reduziert."
+        },
+        "Kriegsbogen": {
+            "Grundschaden": "1W6+2 + Erfolge",
+            "Kosten": "100S",
+            "Gewicht": "0.75Kg",
+            "Reichweite": "50/75",
+            "Munition": "Pfeile",
+            "Geschwindigkeit": "1 Aktion(1. Aktion s = Schuss, 1. Manöver s = Nachladen)",
+            "Modifikator": "-",
+            "Kategorie": "Bögen",
+            "Kampftalent": "Armbrüste & Bögen",
+            "Besonderes": "Ist der Charakter überrascht, muss zuerst die “Nachladen” Aktion genutzt werden."
+        },
+        "Kuyus": {
+            "Grundschaden": "1W6+4 + Erfolge",
+            "Kosten": "90S",
+            "Gewicht": "2Kg",
+            "Reichweite": "50/75",
+            "Munition": "Pfeile",
+            "Geschwindigkeit": "2 Aktionen(1. Aktion s = Schuss, 2. Aktion s = Nachladen)",
+            "Modifikator": "-",
+            "Kategorie": "Bögen",
+            "Kampftalent": "Armbrüste & Bögen",
+            "Besonderes": "Ist der Charakter überrascht, muss er zuerst nachladen."
+        },
+        "Mecharkum": {
+            "Grundschaden": "2W6+2 + Erfolge",
+            "Kosten": "690S",
+            "Gewicht": "2Kg",
+            "Reichweite": "50/75",
+            "Munition": "Pfeile",
+            "Geschwindigkeit": "1 Aktion(1. Aktion s = Schuss, 1. Manöver s = Nachladen)",
+            "Modifikator": "+1 BW",
+            "Kategorie": "Bögen",
+            "Kampftalent": "Armbrüste & Bögen",
+            "Besonderes": "Ist der Charakter überrascht, muss er zuerst nachladen"
+        },
+        "Donnerbüchse": {
+        "Grundschaden": "2W6 + 6 + Erfolge",
+        "Kosten": "660S",
+        "Gewicht": "1 Kg",
+        "Reichweite": "20/30",
+        "Munition": "Kugeln",
+        "Geschwindigkeit": "2 Aktionen(1. Aktion s = Schuss; 2. Aktion s = Nachladen)",
+        "Modifikator": "-",
+        "Kategorie": "Kanonen",
+        "Kampftalent": "Musketen",
+        "Besonderes": "Die Donnerbüchse trifft zusätzlich zum Ziel alle Charaktere in Nahkampfreichweite des Ziels. Die maximale Nahkampfreichweite beträgt hierbei 2 Meter, und anstatt des normalen Schadens verursacht die Donnerbüchse nur 1W6+3 SP an den so getroffenen Zielen."
+        },
+        "Percussor": {
+            "Grundschaden": "2W6+3 + Erfolge",
+            "Kosten": "800S",
+            "Gewicht": "1,5Kg",
+            "Reichweite": "100/250",
+            "Munition": "",
+            "Geschwindigkeit": "2 Aktionen(1. Aktion s = Schuss, 2. Aktion s = Nachladen)",
+            "Modifikator": "-",
+            "Kategorie": "Musketen",
+            "Kampftalent": "Musketen",
+            "Besonderes": "-"
+        },
+        "Hämmer": {
+            "Grundschaden": "1W6+ 3 + Erfolge",
+            "Kosten": "2000S",
+            "Gewicht": "0,5 kg",
+            "Reichweite": "40/70",
+            "Munition": "Kugeln",
+            "Geschwindigkeit": "2 Aktionen(1. Aktion s = Schuss], 2. Aktion s = Nachladen)",
+            "Modifikator": "+1 BW",
+            "Kategorie": "Einzelladerpistolen",
+            "Kampftalent": "Pistolen & Faustfeuerwaffen",
+            "Besonderes": "-"
+        },
+        "Occulta": {
+            "Grundschaden": "1W6+1 + Erfolge",
+            "Kosten": "500S",
+            "Gewicht": "0,5 kg",
+            "Reichweite": "50/100",
+            "Munition": "Kugeln",
+            "Geschwindigkeit": "4 Aktionen(1.-3 Aktion s = Schuss[1 Probe pro Aktion erforderlich], 4. Aktion s = Nachladen)",
+            "Modifikator": "-",
+            "Kategorie": "Pistolen",
+            "Kampftalent": "Pistolen & Faustfeuerwaffen",
+            "Besonderes": "-"
+        },
+        "Revolver": {
+            "Grundschaden": "1W6+1 + Erfolge",
+            "Kosten": "600S",
+            "Gewicht": "0,5 kg",
+            "Reichweite": "40/80",
+            "Munition": "Kugeln",
+            "Geschwindigkeit": "7 Aktionen(1.-6. Aktion s = Schuss[1 Probe pro Aktion erforderlich], 7. Aktion s = Nachladen)",
+            "Modifikator": "-",
+            "Kategorie": "Pistolen",
+            "Kampftalent": "Pistolen & Faustfeuerwaffen",
+            "Besonderes": "-"
+        }, 
+        "Telum": {
+            "Grundschaden": "1W6",
+            "Kosten": "2400S",
+            "Gewicht": "1,5Kg",
+            "Trefferzahl": "1W6-5 + Erfolge",
+            "Reichweite": "50/100",
+            "Munition": "Kugeln",
+            "Geschwindigkeit": "3 Aktionen(1. Und 2. Aktion s = Schießen[1 Probe pro Aktion erforderlich], 3. Aktion s = Nachladen)",
+            "Modifikator": "-",
+            "Kategorie": "Sturmgewehre",
+            "Kampftalent": "Schnellfeuerwaffen",
+            "Besonderes": "-"
+        },
+        "Diskus": {
+            "Grundschaden": "",
+            "Kosten": "",
+            "Gewicht": "",
+            "Reichweite": "",
+            "Munition": "Keine/Selbst",
+            "Modifikator": "",
+            "Kategorie": "",
+            "Kampftalent": "Wurfwaffen",
+            "Besonderes": "-"
+        },
+        "Speer(Wurf)": {
+            "Grundschaden": "1W6",
+            "Kosten": "80S",
+            "Gewicht": "1Kg",
+            "Reichweite": "20/60",
+            "Munition": "Keine/Selbst",
+            "Modifikator": "+1 SW",
+            "Kategorie": "Speere",
+            "Kampftalent": "Wurfwaffen",
+            "Besonderes": "-"
+        },
+        "Wurfsterne": {
+            "Grundschaden": "",
+            "Kosten": "",
+            "Gewicht": "",
+            "Reichweite": "",
+            "Munition": "Keine/Selbst",
+            "Modifikator": "",
+            "Kategorie": "",
+            "Kampftalent": "Wurfwaffen",
+            "Besonderes": "-"
+        }
+    }
+    },
+"Rüstung & Schilde": {
+    "Rüstung": {
+        "Kettenrüstung": {
+            "Beschreibung": "Eine Rüstung aus vielen kleinen Ketten, die in einem aufwändigen Prozess gewoben wurden. Dabei ist jede Rüstung ein recht genau gefertigtes Maßprodukt.",
+            "Kosten": "4000S",
+            "Gewicht": "20Kg",
+            "Schutzklasse": "5",
+            "Modifikator": "2"
+        },
+        "Klappenpanzer": {
+            "Beschreibung": "Der bronzene Brustpanzer schützt die Vitalsten Organe effektiv und kann auch massenproduziert werden.",
+            "Kosten": "500S",
+            "Gewicht": "6Kg",
+            "Schutzklasse": "4",
+            "Modifikator": "1"
+        },
+        "Lederrüstung": {
+            "Beschreibung": "Eine Rüstung aus Leder, die zwar nur grundlegenden Schutz bietet, aber auch relativ leicht ist.",
+            "Kosten": "200S",
+            "Gewicht": "2 Kg",
+            "Schutzklasse": "2",
+            "Modifikator": "0"
+        },
+        "Plattenrüstung": {
+            "Beschreibung": "Die schwere und mächtige Plattenrüstung schützt fast jede stelle sehr effektiv, ist jedoch auch Teuer und schränkt die Bewegung ihres Trägers sehr ein.",
+            "Kosten": "8000S",
+            "Gewicht": "30Kg",
+            "Schutzklasse": "8",
+            "Modifikator": "3"
+        },
+        "Textilrüstung": {
+            "Beschreibung": "Die einfache Textilrüstung bietet zwar kaum Schutz, kann jedoch mit Leichtigkeit unter anderen Klamotten versteckt werden und ist als Notfallmaßnahme oder Unterrüstung durchaus effektiv.",
+            "Kosten": "50S",
+            "Gewicht": "0,5Kg",
+            "Schutzklasse": "1",
+            "Modifikator": "0"
+        }
+    },
+    "Schilde": {
+        "Buckler": {
+            "Beschreibung": "Ein kleiner Handschild, mit einem Durchmesser von weniger als 20cm.",
+            "Kosten": "80S",
+            "Gewicht": "0,5 Kg",
+            "Verteidigung": "+1 VW",
+            "Modifikator": "-"
+        },
+        "Clipeus": {
+            "Beschreibung": "Ein großer Rundschild, der die wichtigsten Teile des Körpers schützt.",
+            "Kosten": "240S",
+            "Gewicht": "2 Kg",
+            "Verteidigung": "+2 VW, +1 SK",
+            "Modifikator": "1"
+        },
+        "Drachenschild": {
+            "Beschreibung": "Ein langer Schild mit guten Verteidigungsmöglichkeiten.",
+            "Kosten": "130S",
+            "Gewicht": "1,5 Kg",
+            "Verteidigung": "+2 VW, +2 SK",
+            "Modifikator": "2, -1 GS"
+        },
+        "Parma": {
+            "Beschreibung": "Ein großer Oval- oder Rundschild, der vorallendingen von Concilia genutzt wird.",
+            "Kosten": "140S",
+            "Gewicht": "1,5 Kg",
+            "Verteidigung": "+2 VW, +1 SK",
+            "Modifikator": "2, -1 GS"
+        },
+        "Peltast": {
+            "Beschreibung": "Ein äußerst interessant geformter Schild, der besonders von Adoria genutzt wird.",
+            "Kosten": "190S",
+            "Gewicht": "1Kg",
+            "Verteidigung": "+2 VW, +1 SK",
+            "Modifikator": "-"
+        },
+        "Rundschild": {
+            "Beschreibung": "Ein klassicher Rundschild.",
+            "Kosten": "140S",
+            "Gewicht": "2 Kg",
+            "Verteidigung": "+2 VW, +1 SK",
+            "Modifikator": "-1 GS",
+            "Besonderes": "-"
+        },
+        "Scutum": {
+            "Beschreibung": "Ein großer, rechteckiger Schild mit rundung, perfekt für Formationen geeignet.",
+            "Kosten": "90S",
+            "Gewicht": "2 Kg",
+            "Verteidigung": "+2 VW, +3 SK",
+            "Modifikator": "1, +1 MW auf alle Kampftalente, -2 GS"
+        }
+    }
+},
+
+"Gebrauchsgegenstände": {
+    "Ausrüstungskits": {
+        "Ausrüstung des Arztes": {
+            "Beschreibung": "Die Reiseausrüstung eines Arztes. Alle Proben auf Heilkunde, bei denen die Ausrüstung benutzt wird, erhalten einen BW.",
+            "Kosten": "120S",
+            "Gewicht": "0,5kg",
+            "Kategorie(n)": "Ausrüstungskits"
+        },
+        "Ausrüstung des Kartographen": {
+            "Mit": {},
+            "Kosten": "100S",
+            "Gewicht": "0,5kg",
+            "Kategorie(n)": "Ausrüstungskits"
+        },
+        "Ausrüstung des Malers": {
+            "Beschreibung": "Das Atelier eines reisenden Malers. Alle Proben, die Zeichnungen beinhalten, erhalten einen BW. Das Malen von Gemälden usw. Wird hierdurch möglich. Auch für Schnelle Notizen kann ein Sketchbuch genutzt werden.",
+            "Kosten": "40S",
+            "Gewicht": "0,5kg",
+            "Kategorie(n)": "Ausrüstungskits"
+        },
+        "Diebesausrüstung": {
+            "Beschreibung": "Unterschiedlichste Dietriche und andere Mittel, um das Handwerk eines Diebes zu erleichtern. Passende Proben auf Diebstahl erhalten einen Bonuswürfel.",
+            "Kosten": "60S",
+            "Gewicht": "1Kg",
+            "Kategorie(n)": "Ausrüstungskits"
+        },
+        "Fischausrüstung": {
+            "Beschreibung": "Eine einfache Ausrüstung, die das Fischen ermöglicht",
+            "Kosten": "20S",
+            "Gewicht": "0,5Kg",
+            "Kategorie(n)": "Ausrüstungskits"
+        },
+        "Handwerkersausrüstung": {
+            "Beschreibung": "Die Ausrüstung eines Handwerkers. Ermöglicht das arbeiten an Mechanika und unterschiedliche andere Arbeiten ohne Nachteile.",
+            "Kosten": "90S",
+            "Gewicht": "5Kg",
+            "Kategorie(n)": "Ausrüstungskits"
+        },
+        "Kletterausrüstung": {
+            "Beschreibung": "Eine Ausrüstung, die das Klettern in jeglicher Situation erleichtert. Auf alle Proben, die Klettern beinhalten, erhält ein Charakter durch Anwendung dieser Ausrüstung einen weiteren Würfel.",
+            "Kosten": "70S",
+            "Gewicht": "2Kg",
+            "Kategorie(n)": "Ausrüstungskits"
+        }
+    },
+    "Gefäße und Behälter": {
+        "Fass": {
+            "Beschreibung": "Ein Fass, welches 200 Liter fasst.",
+            "Kosten": "60S",
+            "Gewicht(Ohne": "2Kg",
+            "Kategorie(n)": "Gefäß"
+        },
+        "Flasche": {
+            "Beschreibung": "Eine einfache Flasche. Fasst 1 Liter",
+            "Kosten": "5S",
+            "Gewicht": "0,25Kg",
+            "Kategorie(n)": "Gefäß"
+        },
+        "Gürteltasche": {
+            "Beschreibung": "Eine kleine Tasche für einfache Werkzeuge oder Wertmittel. Gerne als Behältnis für Geldbeutel genutzt, auch wenn sie relativ unsicher ist.",
+            "Kosten": "2S",
+            "Gewicht": "0,1Kg",
+            "Kategorie(n)": "Gefäß"
+        },
+        "Korb": {
+            "Beschreibung": "Ein einfacher Korb für den Transport.",
+            "Kosten": "4S",
+            "Gewicht": "0,25Kg",
+            "Kategorie(n)": "Gefäße"
+        },
+        "Rucksack": {
+            "Beschreibung": "Ein Rucksack, der bis zu 20 kg fassen kann.",
+            "Kosten": "15S",
+            "Gewicht": "0,25Kg",
+            "Kategorie(n)": "Gefäß"
+        },
+        "Sack": {
+            "Beschreibung": "Ein Sack, der bis zu 20 kg halten kann.",
+            "Kosten": "10S",
+            "Gewicht": "0,1Kg",
+            "Kategorie(n)": "Gefäß"
+        },
+        "Wasserschlauch": {
+            "Beschreibung": "Ein Wasserschlauch, um Flüssigkeiten zu transportieren. Fasst 2 Liter, verliert jedoch jeden Tag 0,2 Liter.",
+            "Kosten": "5S",
+            "Gewicht": "0,5Kg(Leer)",
+            "Kategorie(n)": "Gefäß"
+        }
+    },
+    "Werkzeug": {
+        "Brecheisen": {
+            "Beschreibung": "Ein Brecheisen, welches das Einbrechen erleichtert. Alle Proben auf Diebstahl erhalten 2 BW, wenn ein Brecheisen anwendbar ist.",
+            "Kosten": "20S",
+            "Gewicht": "1Kg",
+            "Kategorie(n)": "Werkzeug"
+        },
+        "Enterhaken": {
+            "Beschreibung": "Ein Enterhaken, der an das Ende eines Seiles gebunden werden kann. Ein Seil ist nicht enthalten.",
+            "Kosten": "50S",
+            "Gewicht": "1Kg",
+            "Kategorie(n)": "Werkzeug"
+        },
+        "Fernrohr": {
+            "Beschreibung": "Ein gutes Mittel, um alles mögliche in der Ferne zu erkennen. Vergrößerung s = 10-fach",
+            "Kosten": "400S",
+            "Gewicht": "0,1kg",
+            "Kategorie(n)": "Werkzeug"
+        },
+        "Hammer": {
+            "Beschreibung": "Ein einfacher Hammer, mit dem mann unterschiedliche Arbeiten erledigen.",
+            "Kosten": "40S",
+            "Gewicht": "0,5 Kg",
+            "Kategorie(n)": "Werkzeug"
+        },
+        "Kessel": {
+            "Beschreibung": "Ein einfacher Kessel, der als Behältnis dienen kann.",
+            "Kosten": "60S",
+            "Gewicht": "1Kg",
+            "Kategorie": "Werkzeug"
+        },
+        "Lupe": {
+            "Beschreibung": "Eine Lupe zur betrachtung kleiner Objekte. Kann Proben auf Mechanik-Talente erleichtern.",
+            "Kosten": "60S",
+            "Gewicht": "0,25Kg",
+            "Kategorie(n)": "Werkzeuge"
+        }
+    },
+    "Alchemie": {
+        "Alchemielabor,mobil(Laborstufe 6)": {
+            "Beschreibung": "Ein komplexes Alchemielabor, welches die Kreation unterschiedlichster Gebräue erlaubt, jedoch auch überaus schwer und kostspielig ist.",
+            "Kosten": "600S",
+            "Gewicht": "10 Kg",
+            "Kategorie(n)": "Ausrüstungskits"
+        },
+        "Alchemie-set(Laborstufe3)": {
+            "Beschreibung": "Ein einfaches und tragbares Alchemie-Set, welches alle essentiellen grundlagen alchemischer Arbeit abdeckt, jedoch nicht viel mehr.",
+            "Kosten": "180S",
+            "Gewicht": "5kg",
+            "Kategorie(n)": "Ausrüstungskits"
+        },
+        "Phiolen": {
+            "Beschreibung": "Kleine Glasflaschen, in welche Tränke gefüllt werden können.",
+            "Kosten": "1S",
+            "Gewicht": "0,1Kg",
+            "Kategorie(n)": "Nutzmittel"
+        }
+    },
+    "Natur und Überleben": {
+        "Decke": {
+            "Beschreibung": "Eine einfache Decke, um die Kälte der Nächte fernzuhalten. Hält bis Kältestufe 2.",
+            "Kosten": "25S",
+            "Gewicht": "0,25Kg",
+            "Kategorie(n)": "Überleben"
+        },
+        "Schlafsack": {
+            "Beschreibung": "Ein Schlafsack, um auch kältere Nächte zu überstehen. Ausreichend, um keine negativen Effekte durch bis zu Kälte 2 zu erhalten.",
+            "Kosten": "60S",
+            "Gewicht": "2Kg",
+            "Kategorie(n)": "Überleben"
+        },
+        "Tagesration": {
+            "Beschreibung": "Genügend Nahrung für einen ganzen tag in der Wildniss. Nicht sonderlich lecker, aber nützlich.",
+            "Kosten": "10S",
+            "Gewicht": "0.25Kg",
+            "Kategorie(n)": "Nahrung"
+        },
+        "Zelt(1Person)": {
+            "Beschreibung": "Ein Zelt für eine Person. Schützt vor Umgebungseffekten und vor Kälte I.",
+            "Kosten": "30S",
+            "Gewicht": "4Kg",
+            "Kategorie(n)": "Überleben"
+        },
+        "Zelt(10Personen)": {
+            "Beschreibung": "Ein Zelt für zehn Personen. Schützt vor Umgebungseffekten und vor Kälte I.",
+            "Kosten": "100S",
+            "Gewicht": "15Kg",
+            "Kategorie(n)": "Überleben"
+        },
+        "Zelt(2Personen)": {
+            "Beschreibung": "Ein Zelt für zwei Personen. Schützt vor Umgebungseffekten und vor Kälte I.",
+            "Kosten": "50S",
+            "Gewicht": "6Kg",
+            "Kategorie(n)": "Überleben"
+        },
+        "Zelt(4Personen)": {
+            "Beschreibung": "Ein Zelt für vier Personen. Schützt vor Umgebungseffekten und vor Kälte I.",
+            "Kosten": "70S",
+            "Gewicht": "8Kg",
+            "Kategorie(n)": "Überleben"
+        }
+    },
+    "Licht und Dunkelheit": {
+        "Feuerstein& Stahl": {
+            "Beschreibung": "Eine einfache Möglichkeit, verlässliche Feuer zu entfachen.",
+            "Kosten": "20S",
+            "Gewicht": "0,1kg",
+            "Kategorie(n)": "Werkzeug"
+        },
+        "Feuerzeug": {
+            "Beschreibung": "Kann Feuer entfachen. Benötigt Öl oder andere Treibstoffe.",
+            "Kosten": "50S",
+            "Gewicht": "0,1kg",
+            "Kategorie(n)": "Werkzeug"
+        },
+        "Kerze": {
+            "Beschreibung": "Eine einfache Kerze, die ein schwaches Licht auf die Umgebung werfen kann.",
+            "Kosten": "1S",
+            "Gewicht": "0,01Kg",
+            "Kategorie(n)": "Leuchtmittel"
+        },
+        "Laterne": {
+            "Beschreibung": "Eine Laterne, die mit ihrem Licht einen kleinen Raum erhellen kann.",
+            "Kosten": "10S",
+            "Gewicht": "0,5Kg",
+            "Kategorie(n)": "Leuchtmittel"
+        }
+    },
+    "Alltagsgegenstände": {
+        "Faden(10Meter)": {
+            "Beschreibung": "Ein einfacher, recht leicht reißender Faden.",
+            "Kosten": "2S",
+            "Gewicht": "0,01Kg",
+            "Kategorie(n)": "Nutzmittel"
+        },
+        "Federkiel& Tinte": {
+            "Beschreibung": "Federkiel und Tinte, genug um ein Tagebuch zu schreiben.",
+            "Kosten": "4S",
+            "Gewicht": "0,01kg",
+            "Kategorie(n)": "Nutzmittel"
+        },
+        "Glocke": {
+            "Beschreibung": "Eine kleine Glocke, die geläutet werden kann. Kann auf freier Fläche ohne Wind bis zu 150 Meter gehört werden.",
+            "Kosten": "10S",
+            "Gewicht": "0,1Kg",
+            "Kategorie(n)": "Nutzmittel, Kommunikation"
+        },
+        "Kette(2Meter)": {
+            "Beschreibung": "Eine robuste Kette aus Metall.",
+            "Kosten": "50S",
+            "Gewicht": "2Kg",
+            "Kategorie(n)": "Nutzmittel"
+        },
+        "Kugelschreiber": {
+            "Beschreibung": "Ein Kugelschreiber, mit dem geschrieben werden kann. Reicht für ein Tagebuch.",
+            "Kosten": "40K",
+            "Gewicht": "0,01Kg",
+            "Kategorie(n)": "Alltagsgegenstände, Schreibmittel"
+        },
+        "Mechanische": {
+            "Beschreibung": "Ein komplexes Uhrwerk, welches die Zeit genau anzeigen kann.",
+            "Kosten": "40S",
+            "Gewicht": "0,1Kg",
+            "Kategorie(n)": "Alltagsgegenstände, Werkzeuge"
+        },
+        "Öl(Flasche)": {
+            "Beschreibung": "Öl in einer Flasche. Kann als Treibstoff verwendet werden. 0,5 Liter.",
+            "Kosten": "120S",
+            "Gewicht": "0,5 Kg",
+            "Kategorie(n)": "Nutzmittel"
+        },
+        "Parfüm": {
+            "Beschreibung": "Parfüm, um Gerüche zu überdecken oder neue zu kreieren.",
+            "Kosten": "20S",
+            "Gewicht": "0,1Kg",
+            "Kategorie(n)": "Nutzmittel"
+        },
+        "Regenschirm": {
+            "Beschreibung": "Ein Regenschirm für schlechtes Wetter.",
+            "Kosten": "10S",
+            "Gewicht": "0,25Kg",
+            "Kategorie(n)": "Alltagsgegenstände"
+        },
+        "Sanduhr": {
+            "Beschreibung": "Eine einfache Sanduhr, um kurze Zeiten zu messen. Läuft standardmäßig 10 Minuten lang.",
+            "Kosten": "10S",
+            "Gewicht": "0,25Kg",
+            "Kategorie(n)": "Alltagsgegenstände, Werkzeuge"
+        },
+        "Schloss": {
+            "Beschreibung": "Ein Vorhängeschloss, um Kisten o.ä. Zu verschließen. Schwierigkeit 3 zum öffnen.",
+            "Kosten": "40S",
+            "Gewicht": "0,1Kg",
+            "Kategorie(n)": "Alltagsgegenstände, Werkzeug"
+        },
+        "Seil(10Meter)": {
+            "Beschreibung": "Ein robustes Seil, dass einen Menschen halten kann.",
+            "Kosten": "30S",
+            "Gewicht": "1Kg",
+            "Kategorie(n)": "Nutzmittel"
+        },
+        "Tagebuch": {
+            "Beschreibung": "Ein Tagebuch mit 200 Seiten.",
+            "Kosten": "40S",
+            "Gewicht": "0,5Kg",
+            "Kategorie(n)": "Schreibmittel"
+        },
+        "Taschenlampe": {
+            "Beschreibung": "Eine hoch entwickelte Lampe, die große Bereiche erleuchten kann, jedoch sehr fokussiert ist.",
+            "Kosten": "150S",
+            "Gewicht": "0,5Kg",
+            "Kategorie(n)": "Alltagsgegenstände, Werkzeuge"
+        },
+        "Topf(Eisern)": {
+            "Beschreibung": "Ein eiserner Topf zum Kochen.",
+            "Kosten": "40S",
+            "Gewicht": "2Kg",
+            "Kategorie(n)": "Alltagsgegenstände, Werkzeuge"
+        },
+        "Trillerpfeife": {
+            "Beschreibung": "Eine laute Pfeife zur Kommunikation. Kann auf freier Fläche ohne Wind bis zu 500 Meter weit gehört werden.",
+            "Kosten": "10S",
+            "Gewicht": "0,1Kg",
+            "Kategorie(n)": "Kommunikation, Nutzmittel"
+        }
+    },
+    "Haus- und Wildtiere": {
+        "Sattel": {
+            "Beschreibung": "Ein Sattel, um ein Pferd mehr oder weniger komfortabel reiten zu können.",
+            "Kosten": "100S",
+            "Gewicht": "10Kg",
+            "Kategorie(n)": "Tiere"
+        },
+        "Satteltaschen": {
+            "Beschreibung": "Taschen, die an einem Sattel befestigt werden können. Fassen bis zu 40 Kg.",
+            "Kosten": "50S",
+            "Gewicht": "4Kg",
+            "Kategorie(n)": "Tiere"
+        }
+    }
+},
+"Mechanika": {
+    "Simple Mechanika": {
+        "Alchemie-Set(Mechanisch,Laborstufe 3)": {
+            "Beschreibung": "Ein einfaches und tragbares Alchemieset mit unterschiedlichen Apparaten, die das Brauen erleichtern. Mit einem kleinen, integrierten Dampfgenerator eignet sich dieses Set perfekt für die Arbeit auf der Reise.",
+            "Kosten": "310S, 3 KoP, 5 Stunden",
+            "Voraussetzungen": "Feinmechanik 2, Grobmechanik 2",
+            "Talent": "Feinmechanik, Großmechanik",
+            "Komplexität": "3",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "4 Kg",
+            "Regeln": "Dieses Alchemie-Set kann als normales Alchemie-Set der Laborstufe 3 genutzt werden. Es erhöht für das Brauen den eTw von Alchemie, Elektrizitätskunde, Fein- und Grobmechanik um 1."
+        },
+        "Barometer": {
+            "Beschreibung": "Ein Gerät, um Luftdruck zu messen. Je nach Anwendung kann es zur Messung der aktuellen Höhe über dem Meeresspiegel, zur Vorhersage von Wetterbedingungen und in Kombination mit anderen Mechanika verwendet werden. Das kleine, runde Mechanika ähnelt einer altmodischen Uhr und kann problemlos in der Tasche transportiert werden.",
+            "Kosten": "120S, 1 KoP, 2 Stunden",
+            "Voraussetzungen": "Feinmechanik 2",
+            "Talent": "Feinmechanik",
+            "Komplexität": "1",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,25 Kg",
+            "Regeln": "Mit dem Barometer kann die aktuelle Höhe mit einer Probe auf Alchemie, Geographie oder Naturkunde bestimmt werden. Proben, um das Wetter vorherzusagen, erhalten bei Nutzung des Barometers 2 BW."
+        },
+        "Fernrohr(Faltbar)": {
+            "Beschreibung": "Ein Fernrohr, welches im gefalteten Zustand die Größe einer Taschenuhr erreichen kann. Es verbessert die Sicht auf große Reichweiten.",
+            "Kosten": "350S, 3 KoP, 20 Stunden",
+            "Voraussetzungen": "Feinmechanik 3",
+            "Talent": "Feinmechanik",
+            "Komplexität": "4",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,25 Kg",
+            "Regeln": "Das Fernrohr erhöht die Sichtweite eines Charakters. Proben auf Wahrnehmung über große Distanzen erhalten 1 BW oder werden ermöglicht."
+        },
+        "Feuerzeug": {
+            "Beschreibung": "Ein einfaches Feuerzeug, welches mit mechanischen Klicken eine kleine Flamme erzeugen kann.",
+            "Kosten": "50S, 1 KoP, 2 Stunden",
+            "Voraussetzungen": "Feinmechanik 1 oder Grobmechanik 1",
+            "Talent": "Feinmechanik oder Grobmechanik",
+            "Komplexität": "1",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,1 Kg",
+            "Regeln": "Der Charakter kann eine kleine Flamme erzeugen. Im Kampf benötigt dies eine freie Aktion."
+        },
+        "Gasmaske": {
+            "Beschreibung": "Dieses wichtige Stück Technik filtert die vom Charakter eingeatmete Luft und kann so viele Gase und andere Gefahren völlig negieren. Mit dicken Linsen und einem mechanischen Rasseln bei jedem Atemzug ist sie jedoch äußerst auffällig und klobig.",
+            "Kosten": "210S, 3 KoP, 7 Stunden",
+            "Voraussetzungen": "Feinmechanik 2",
+            "Talent": "Feinmechanik",
+            "Komplexität": "3",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,5 Kg",
+            "Regeln": "Die Gasmaske benötigt im Kampf 1 Aktion, um korrekt aufgesetzt zu werden. Sie negiert viele Umgebungseffekte und kann, nach SL-entscheid, auch gewisse Gebräue oder andere Effekte, die mit dem Geruchssinn zu tun haben, negieren."
+        },
+        "Generator(Portabel)": {
+            "Beschreibung": "Ein kleiner Dampfgenerator, der Strom und Dampfkraft generieren kann. Er generiert zwar nur kleine Mengen Energie, kann jedoch simple Mechanika betreiben. Aufgrund seiner größe muss er auf den Rücken eines Charakters geschnallt werden und ist überaus laut. Er kann durch Öl/Diesel, Kohle oder Holz betrieben werden.",
+            "Kosten": "600S, 4 KoP, 10 Stunden",
+            "Voraussetzungen": "Grobmechanik 3, Elektrizitätskunde 3",
+            "Talent": "Grobmechanik, Elektrizitätskunde",
+            "Komplexität": "3",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "7,5 Kg",
+            "Regeln": "Vor der Konstruktion dieses Mechanika muss eine Betriebsweise gewählt werden. Zur Auswahl stehen Öl/Diesel, Kohle und Holz. Der Generator benötigt zum Betrieb täglich 1 Kg Holz/0,25 Kg Kohle/0,2 L Öl bzw. Diesel. Er ist kompatibel mit allen Simplen Mechanika, die der Charakter konstruiert hat. Wurde der Generator oder die Mechanika von anderen Charakteren konstruiert, ist die Kompatibilität nicht zwangsweise gegeben und wird von der SL entschieden. Da der Generator nur geringe Mengen an Energie generieren kann, können nur Simple Mechanika durch ihn betrieben werden."
+        },
+        "Handbohrmaschine": {
+            "Beschreibung": "Eine kleine Bohrmaschine, die unterschiedliche Arbeiten erleichtert. Sie benötigt jedoch eine externe Strom- oder Dampfzufuhr und verursacht großen Lärm.",
+            "Kosten": "250S, 4 KoP, 5 Stunden",
+            "Voraussetzungen": "Feinmechanik 2 oder Grobmechanik 2",
+            "Talent": "Feinmechanik, Grobmechanik",
+            "Komplexität": "2",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "1 Kg",
+            "Regeln": "Nutzt der Charakter dieses Mechanika bei der Arbeit an anderen Mechanika, erhält er 2 BW auf Grobmechanik.",
+            "Besonderes": "Benötigt externe Strom- oder Dampfzufuhr"
+        },
+        "Kamera": {
+            "Beschreibung": "Ein geniales Mechanika, dass das Festhalten von Bildern erlaubt. Mittels eines Auslösers kann, von der Perspektive der Kamera aus, ein Bild festgehalten und auf ein spezielles Papier gebrannt werden. Während des Prozesses zischt die Kamera.",
+            "Kosten": "800S, 7 KoP, 14 Stunden",
+            "Voraussetzungen": "Feinmechanik 5",
+            "Talent": "Feinmechanik",
+            "Komplexität": "4",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,25 Kg",
+            "Regeln": "Das Nutzen der Kamera benötigt im Kampf 1 Manöver. Die Kamera kann ein Bild auf Spezialpapier festhalten."
+        },
+        "Kugelschreiber": {
+            "Beschreibung": "Ein kleiner aber feiner und eleganter Kugelschreiber, der mit einfacher Dampfenergie ein- und ausgefahren werden kann.",
+            "Kosten": "500S, 2 KoP, 10 Stunden",
+            "Voraussetzungen": "Feinmechanik 4",
+            "Talent": "Feinmechanik",
+            "Komplexität": "3",
+            "Kategorie(n)": "Simple Mechanika, Kunst",
+            "Gewicht": "0,1 Kg"
+        },
+        "Kühlschrank(Portabel)": {
+            "Beschreibung": "Ein kleiner Kühlschrank, der ca. 2 Kg an Lebensmitteln fassen und konservieren kann. Er lässt ein leichtes Summen von sich und benötigt eine externe Stromzufuhr zur Funktion.",
+            "Kosten": "300S, 4 KoP, 6 Stunden",
+            "Voraussetzungen": "Grobmechanik 2, Elektrizitätskunde 3",
+            "Talent": "Elektrizitätskunde, Grobmechanik",
+            "Komplexität": "2",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "3 Kg",
+            "Regeln": "Verderbliche Lebensmittel im Kühlschrank werden nicht verderben und sind vor äußeren Einflüssen geschützt.",
+            "Besonderes": "Benötigt externe Stromzufuhr"
+        },
+        "Mini-Phonograph": {
+            "Beschreibung": "Ein kleines Gerät, welches als Brosche, Stift oder andere Gerätschaften getarnt werden kann. Es kann bis zu 30 Minuten Audio aufzeichnen und auf Knopfdruck erneut abspielen.",
+            "Kosten": "100S, 2 KoP, 8 Stunden",
+            "Voraussetzungen": "Feinmechanik 1",
+            "Talent": "Feinmechanik",
+            "Komplexität": "2",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,01 Kg",
+            "Regeln": "Der Knopfdruck zur Aufnahme braucht im Kampf 1 Manöver. Um den Knopf verdeckt zu nutzen, ist eine Probe auf Verbergen gegen Wahrnehmung nötig, wobei der Charakter bis zu 2 BW erhalten kann, wenn sein gewähltes Versteck besonders unauffällig ist."
+        },
+        "Radio": {
+            "Beschreibung": "Ein einfaches Radio, welches unterschiedliche Signale und Sender empfangen kann.",
+            "Kosten": "250S, 3 KoP, 4 Stunden",
+            "Voraussetzungen": "Elektrizitätskunde 3",
+            "Talent": "Elektrizitätskunde",
+            "Komplexität": "2",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,25 Kg"
+        },
+        "Rechenmaschine": {
+            "Beschreibung": "Eine komplexe Maschine mit unzähligen Knöpfen, die komplexe mathematische Formeln berechnen kann und somit bei unterschiedlichsten Aufgaben unterstützt. Aufgrund der Komplexität der Mechanismen ist jedoch vorsicht bei der Nutzung geboten.",
+            "Kosten": "300S, 1 KoP, 6 Stunden",
+            "Voraussetzungen": "Feinmechanik 3",
+            "Talent": "Feinmechanik",
+            "Komplexität": "3",
+            "Kategorie(n)": "Simple Mechanika, Dampfbastler I",
+            "Gewicht": "0,25 Kg",
+            "Regeln": "Proben, bei denen der Charakter rechnen muss, erhalten 2 BW. Dies gilt auch für Mechanik-proben, um z.B. Baupläne mit mathematischen Formeln zu verstehen."
+        },
+        "Rollstuhl(Mechanisch)": {
+            "Beschreibung": "Ein mechanischer Rollstuhl, der mit einem integrierten Motor und Generator Fortbewegung für bewegungseingeschränkte Personen und die Adligen erlaubt. Er wird über mehrere Hebel die an unterschiedlichen Orten platziert werden können gesteuert.",
+            "Kosten": "400S, 6 KoP, 5 Stunden",
+            "Voraussetzungen": "Grobmechanik 3, Elektrizitätskunde 1",
+            "Talent": "Grobmechanik",
+            "Komplexität": "2",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "25 Kg",
+            "Regeln": "Der Rollstuhl besitzt eine GS von 5 und kann Charaktere auch durch mäßig unebenes Terrain navigieren. Für weitere 4 KoP und 6 Stunden(Endkosten s = 600S) kann jegliches Terrain durchquert werden. Mit einem Rollstuhl bewegt sich ein Charakter regeltechnisch wie jeder andere und besitzt eine GS von 5.",
+            "Besonderes": "Bewegungseingeschränkte Charaktere können nach SL-Entscheid dieses Mechanika während der Charaktererstellung kostenlos erhalten, wenn dies in ihre Hintergrundgeschichte integriert werden kann."
+        },
+        "Sattel(Mechanisch)": {
+            "Beschreibung": "Ein Sattel mit integrierten Dämpfern, der das Reiten äußerst bequem macht.",
+            "Kosten": "350S, 3 KoP, 10 Stunden",
+            "Voraussetzungen": "Feinmechanik 2",
+            "Talent": "Feinmechanik",
+            "Komplexität": "3",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "5 Kg"
+        },
+        "Schreibmaschine": {
+            "Beschreibung": "Beschreibung s = Eine Schreibmaschine, die in einem Koffer transportiert überaus portabel ist. Sie kann zum schnellen und leserlichen Schreiben langer texte genutzt werden.",
+            "Kosten": "",
+            "Voraussetzungen": "Grobmechanik 3",
+            "Talent": "Grobmechanik",
+            "Komplexität": "3",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "8 Kg"
+        },
+        "Schuhwerk(Mechanisch)": {
+            "Beschreibung": "Ein dampfbetriebenes Schuhwerk, das durch integrierte Keile und Dämpfer sowohl lange Märsche äußerst bequem macht, als auch das Klettern stark vereinfacht.",
+            "Kosten": "210S, 2 KoP, 4 Stunden",
+            "Voraussetzungen": "Feinmechanik 2 oder Grobmechanik 2",
+            "Talent": "Feinmechanik oder Grobmechanik",
+            "Komplexität": "2",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,5 Kg",
+            "Regeln": "Charaktere, die diese Schuhe tragen, erhalten 2 BW für Proben auf Klettern."
+        },
+        "Spektrometer": {
+            "Beschreibung": "Diese Gerätschaft dient zur Analyse von Licht und kann dieses in unterschiedliche Wellenlängen aufspalten.",
+            "Kosten": "400S, 5 KoP, 6 stunden",
+            "Voraussetzungen": "Grobmechanik 4",
+            "Talent": "Grobmechanik",
+            "Komplexität": "3",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "0,25 Kg"
+        },
+        "Taschenlampe": {
+            "Beschreibung": "Eine kleine Lampe, die mit einem kurzen Klick Licht ins Dunkel bringen kann.",
+            "Kosten": "50S, 1 KoP, 2 Stunden",
+            "Voraussetzungen": "Elektrizitätskunde 2",
+            "Talent": "Elektrizitätskunde",
+            "Komplexität": "1",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,1 Kg"
+        },
+        "Taschenuhr": {
+            "Beschreibung": "Eine Kleine Taschenuhr, die verlässlich die Zeit anzeigen kann. Sie muss alle 3 wochen Aufgezogen werden",
+            "Kosten": "50S, 2KoP, 8 Stunden",
+            "Voraussetzungen": "Feinmechanik 3",
+            "Talent": "Feinmechanik",
+            "Komplexität": "2",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,1 Kg"
+        },
+        "Taschenventilator": {
+            "Beschreibung": "Ein kleiner Ventilator, der zur abkühlung genutzt werden kann",
+            "Kosten": "60S, 1 KoP, 3 Stunden",
+            "Voraussetzungen": "Grobmechanik 1",
+            "Talent": "Grobmechanik",
+            "Komplexität": "1",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,1 Kg"
+        },
+        "Telegraph": {
+            "Beschreibung": "Ein einfacher Telegraph, der unterschiedliche Signale über weite Distanzen versenden kann. Er muss an ein Telegraphenkabel oder Radiosender angeschlossen werden, um Signale versenden zu können. Er kann ebenfalls Telegraphische Signale empfangen und automatisch in Sprache übersetzen.",
+            "Kosten": "200S, 2 KoP, 15 Stunden",
+            "Voraussetzungen": "Elektrizitätskunde 2",
+            "Talent": "Elektrizitätskunde",
+            "Komplexität": "2",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,75 Kg"
+        },
+        "Teleskop": {
+            "Beschreibung": "Ein Teleskop, das die Beobachtung der Sterne ermöglicht. Es hat eine hohe Vergrößerung und kann weit entfernte Gebiete äußerst akkurat anzeigen.",
+            "Kosten": "350S, 3 KoP, 10 Stunden",
+            "Voraussetzungen": "Feinmechanik 3",
+            "Talent": "Feinmechanik",
+            "Komplexität": "2",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,4 Kg",
+            "Regeln": "Das Teleskop erhöht die Sichtweite eines Charakters stark. Proben auf Wahrnehmung über große Distanzen erhalten 2 BW oder werden ermöglicht. Es erlaubt ebenfalls die Beobachtung und Analyse der Sterne."
+        },
+        "Wettermaschine": {
+            "Beschreibung": "Ein Mechanika, welches das Wetter innerhalb der nächsten Stunden bestimmen kann.",
+            "Kosten": "520S, 5 KoP, 10 Stunden",
+            "Voraussetzungen": "Feinmechanik 3, Alchemie 2",
+            "Talent": "Feinmechanik",
+            "Komplexität": "3",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "1 Kg",
+            "Regeln": "Um die Wettermaschine zu nutzen, muss diese draußen aufgestellt und konfiguriert werden. Dies benötigt eine Probe auf Feinmechanik mit Schwierigkeit 1. Nach der Konfiguration zeigt die Maschine das Wetter der nächsten Stunden mit mehreren Zeigern an."
+        },
+        "Zoom-Monokel": {
+            "Beschreibung": "Ein kleines Monokel, welches durch das Betätigen eines kleinen Hebels mehrere Stufen an Vergrößerung erreichen kann, und so feine Arbeiten erleichtert.",
+            "Kosten": "90S 1KoP, 6 Stunden",
+            "Voraussetzungen": "Feinmechanik 2",
+            "Talent": "Feinmechanik",
+            "Komplexität": "2",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,1 Kg",
+            "Regeln": "Trägt der Charakter den Monokel, erhält er 2 BW für Proben auf Feinmechanik. Es können ebenfalls für andere Proben, die eine starke Vergrößerung benötigen, BW von der SL vergeben werden."
+        }
+    },
+    "Komplexe Mechanika": {
+        "TransportablesAlchemie-Labor(Laborstufe 8)": {
+            "Beschreibung": "Ausgestattet mit unterschiedlichsten mechanischen Komponenten kann dieses Labor die Funktionen weitaus komplexerer Labore mit mechanischen Komponenten ersetzen und so die mobile Arbeit an komplexen Gebräuen ermöglichen. Das Labor wird in einem Koffer transportiert und baut sich nach der Aktivierung zu einem großen Labor auf, welches unterschiedlichste Gefäße und andere Unterstützung mit sich bringt.",
+            "Kosten": "2300S, 11 KoP, 16 Stunden",
+            "Voraussetzungen": "Feinmechanik 9, Grobmechanik 8, Alchemie 4",
+            "Talent": "Feinmechanik, Grobmechanik",
+            "Komplexität": "7",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "6 Kg",
+            "Regeln": "Proben auf Alchemie erhalten +4 BW.",
+            "Besonderes": "Benötigt externe Stromzufuhr"
+        },
+        "Armillar": {
+            "Beschreibung": "Diese komplexe Maschine zeigt eine grafische Darstellung der aktuellen Mondpositionen. Die Sphäre hat mehrere Ringe, auf denen die unterschiedlichen Monde und einige wichtige Navigationssterne geführt werden. Nach der Aktivierung müssen mehrere Parameter, wie das aktuelle Datum und einige Mondpositio-nen eingegeben werden, um es zu kalibrieren.",
+            "Kosten": "1900S, 8 KoP, 10 Stunden",
+            "Voraussetzungen": "Feinmechanik 4, Grobmechanik 5, Geographie 4",
+            "Talent": "Grobmechanik, Feinmechanik",
+            "Komplexität": "4",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "2,5 Kg",
+            "Regeln": "Um das Armillar in Betrieb zu nehmen, ist eine Probe auf Geographie nötig, um die jeweiligen Mondpositionen zu bestimmen und das Mechanika korrekt zu kalibrieren. Die Schwierigkeit der Probe ist 4. Ist es in Betrieb, erhalten Charaktere bei der Nutzung 6 BW für Proben auf Geographie, Naturkunde oder Orientierung, um Mondphasen, Position oder Ähnliches anhand der Himmelskörper zu bestimmen. Proben, um zu erfassen, ob ein Mond außerhalb der natürlichen Phase ist, gelingen automatisch."
+        },
+        "Blendlampe": {
+            "Beschreibung": "Diese Taschenlampe ist mit einer besonderen Technik gebaut und kann so extrem helles Licht schaffen, dass Feinde temporär blenden kann.",
+            "Kosten": "3100, 18 KoP, 21 Stunden",
+            "Voraussetzungen": "Feinmechanik 8",
+            "Talent": "Feinmechanik",
+            "Komplexität": "7",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "0,25 Kg",
+            "Regeln": "Im Kampf benötigt die Nutzung der Blendlampe 1 Manöver. Es muss eine Probe auf Agilität oder Feinmechanik abgelegt werden, wobei die Schwierigkeit der VW des Gegners ist. Gelingt diese, erhält der Gegner 3 Stufen Geblendet mit einem Abbau von 1 KR. Diese Stufen sind additiv. Die Blendlampe kann in unterschiedlichen Intensitäten abgeblendet werden und somit auch als normale Taschenlampe funktionieren.",
+            "Besonderes": "Benötigt auf der höchsten Stufe externe Stromzufuhr"
+        },
+        "Equatorium": {
+            "Eine": {},
+            "Kosten": "1100S, 8 KoP, 9 Stunden",
+            "Voraussetzungen": "Feinmechanik 6",
+            "Talent": "Feinmechanik",
+            "Komplexität": "5",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "0,5 Kg",
+            "Regeln": "Proben, um die aktuellen, natürlichen Mondphasen zu bestimmen, gelingen automatisch. Die Ergebnisse des Equatoriums müssen aber noch mit den tatsächlichen Positionen verglichen werden, proben, um dies zu bestimmen, erhalten 2 BW."
+        },
+        "EffizienterGenerator": {
+            "Beschreibung": "Dieser Generator ist besonders effizient und benötigt sehr wenig Rohmaterialien, ist jedoch lauter und klobiger als andere Generatoren.",
+            "Kosten": "4500S, 17 KoP, 25 Stunden",
+            "Voraussetzungen": "Grobmechanik 8, Elektrizitätskunde 8",
+            "Talent": "Grobmechanik, Elektrizitätskunde",
+            "Komplexität": "7",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "10 Kg",
+            "Regeln": "Der Generator kann Komplexe und Simple Mechanika, die externe Storm- oder Dampfzufuhr benötigen, betreiben. Zur Funktion benötigt er pro 48 Stunden Betrieb 0,5 Kg Kohle oder 0,25 Liter Öl."
+        },
+        "KompakterGenerator": {
+            "Dieser": {},
+            "Kosten": "4000S, 13 KoP, 28 Stunden",
+            "Voraussetzungen": "Feinmechanik 9, Elektrizitätskunde 8",
+            "Talent": "Feinmechanik, Elektrizitätskunde",
+            "Komplexität": "7",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "2,5 Kg",
+            "Regeln": "Der Generator kann Komplexe und Simple Mechanika, die externe Storm- oder Dampfzufuhr benötigen, betreiben. Zur Funktion benötigt er pro 24 Stunden Betrieb 1 kg Kohle oder 0,5 Liter Öl."
+        },
+        "StillerGenerator": {
+            "Beschreibung": "Dieser Generator ist besonders leise und ist besonders bei Spionen beliebt. Aufgrund seiner besonderen Konstruktion benötigt er jedoch mehr Rohstoffe, um zu funktionieren.",
+            "Kosten": "4200S, 16 KoP, 20 Stunden",
+            "Voraussetzungen": "Grobmechanik 8, Elektrizitätskunde 9",
+            "Talent": "Grobmechanik, Elektrizitätskunde",
+            "Komplexität": "7",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "5 Kg",
+            "Regeln": "Der Generator kann Komplexe und Simple Mechanika, die externe Storm- oder Dampfzufuhr benötigen, betreiben. Zur Funktion benötigt er pro 12 Stunden Betrieb 1 kg Kohle oder 0,5 Liter Öl. Aufgrund seiner Stillen betriebsweise erschwert er Proben auf Verbergen nicht."
+        },
+        "Universalgenerator": {
+            "Beschreibung": "Dieser Generator ist ein Meisterwerk der Kombination und ist ein leiser, effizienter Generator in einem kompakten Paket. Er kombiniert somit die Eigenschaften aller anderen komplexen Generatoren und gilt als komplexester Generator.",
+            "Kosten": "6000S, 15 KoP, 30 Stunden",
+            "Voraussetzungen": "Grobmechanik 12, Elektrizitätskunde 10",
+            "Talent": "Grobmechanik, Elektrizitätskunde",
+            "Komplexität": "10",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "2 Kg",
+            "Regeln": "Der Generator kann Komplexe und Simple Mechanika, die externe Storm- oder Dampfzufuhr benötigen, betreiben. Zur Funktion benötigt er pro 48 Stunden Betrieb 0,5 Kg Kohle oder 0,25 Liter Öl. Aufgrund seiner Stillen betriebsweise erschwert er Proben auf Verbergen nicht.",
+            "Besonderes": "Als Grundlage der Konstruktion dient wahlweise ein effizienter, kompakter oder stiller Generator. Dieser wird bei der Konstruktion des Universalgenerators verbraucht und muss vor diesem fertig konstruiert werden."
+        },
+        "Injektor": {
+            "Beschreibung": "Diese kleine Apparatur kann am Arm eines Charakters angebracht werden und wird direkt mit den Venen verbunden. Auf Knopfdruck können bis zu 3 unterschiedliche Tränke so direkt injiziert werden, was die Nutzung im Kampf erleichtert.",
+            "Kosten": "1400S, 6 KoP, 15 Stunden",
+            "Voraussetzungen": "Grobmechanik 6, Feinmechanik 4, Alchemie 3",
+            "Talent": "Grobmechanik x2, Feinmechanik",
+            "Komplexität": "4",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "0,25 Kg",
+            "Regeln": "Im Kampf benötigt die Nutzung des Injektors 1 freie Aktion. Der Injektor kann außerhalb des Kampfes mit bis zu 3 Tränken, Arznei oder Giften befüllt werden. Der Charakter kann in der freien Aktion einen der Tränke auswählen und diesen injizieren. Dies funktioniert nur einmal pro KR. Die Effekte des Trankes wirken direkt in der freien Aktion, außer anders beim jeweiligen Gebräu angegeben."
+        },
+        "Kalkulator": {
+            "Beschreibung": "Der Kalkulator ähnelt einer Schreibmaschine und kann unterschiedliche mathematische Berechnungen schnell durchführen. Ebenfalls kann er mit anderen Mechanika kombiniert werden, wodurch die Kalibration dieser erleichtert wird.",
+            "Kosten": "5700S, 21 KoP, 31 Stunden",
+            "Voraussetzungen": "Elektrizitätskunde 12, Feinmechanik 10",
+            "Talent": "Elektrizitätskunde x2, Feinmechanik",
+            "Komplexität": "10",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "4 Kg",
+            "Regeln": "Mechanika, die eine Kalibration ermöglichen, erhalten 4 BW auf die zur Kalibration nötigen Proben, wenn der Kalkulator genutzt wird. Der Kalkulator kann Proben zur mathematischen Berechnung automatisch übernehmen."
+        },
+        "Knacker": {
+            "Beschreibung": "Ein kleiner, automatischer Dietrich, der in ein Schloss eingeführt werden kann und diese so vollautomatisch öffnen kann. Da der Knacker dampfbetrieben ist, ist dies kaum hörbar.",
+            "Kosten": "1000-2500S(Je nach TW in Diebstahl), 10 KoP, 14 Stunden",
+            "Voraussetzungen": "Feinmechanik 9, Diebstahl 4",
+            "Talent": "Feinmechanik",
+            "Komplexität": "7",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "0,1 Kg",
+            "Regeln": "Der Knacker kann Schlösser bis zu einer Schwierigkeit von 5 immer öffnen. Höhere Schwierigkeiten benötigen eine Probe auf Diebstahl, welche der Knacker autonom ausführt. Der Talentwert ist dabei der Talentwert in Diebstahl des Konstrukteurs + 2.",
+            "Besonderes": "Muss nach 5 Benutzungen oder Monatlich, je nachdem was früher kommt, an eine externe Strom- oder Dampfzufuhr angeschlossen werden."
+        },
+        "Lokalisierer": {
+            "Beschreibung": "Der Lokalisierer kann um das Handgelenk getragen werden und ähnelt einer Armbanduhr. Anstatt eines Ziffernblattes zeigt er jedoch mehrere kleine Punkte, welche sich in bewegen. Dies sind andere Träger eines gleich kalibrierten Lokalisierer, sodass sich Träger problemlos wiederfinden. Andere Personen werden immer in Relation zum Träger angezeigt, wobei bis zu 6 Personen verfolgt werden können.",
+            "Kosten": "4500S, 24 KoP, 26 Stunden",
+            "Voraussetzungen": "Feinmechanik 10, Elektrizitätskunde 10",
+            "Talent": "Feinmechanik, Elektrizitätskunde",
+            "Komplexität": "8",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "0,1 Kg",
+            "Regeln": "Der Lokalisierer muss auf eine Frequenz kalibriert werden, um andere Personen anzuzeigen. Wird ein Lokalisierer zerstört, wird die letzte abgegebene Position angezeigt. Die maximale Reichweite beträgt 2 Kilometer und es können bis zu 6 Personen gleichzeitig angezeigt werden.",
+            "Besonderes": "Muss wöchentlich an eine externe Stromzufuhr angeschlossen werden."
+        },
+        "Medizin-Kit": {
+            "Beschreibung": "Dieser mechanisch-unterstützte Medizinkasten kann unterschiedliche medizinische Funktionen erfüllen und unterstützt Ärzte bei ihrer Arbeit. Er kann auch autonom einfache, lebensrettende Maßnahmen einleiten. Unterschiedliche mechanische Arme und Schläuche breiten sich nach der Aktivierung aus dem Medizin-Kit aus und reagieren auf Eingaben eines Arztes, welche über die Bewegung unterschiedlicher Arme und Hebel funktioniert.",
+            "Kosten": "3900S, 20 KoP, 30 Stunden",
+            "Voraussetzungen": "Feinmchanik 9, Elektrizitätskunde 8, Heilkunde 4",
+            "Talent": "Feinmechanik, Elektrizitätskunde",
+            "Komplexität": "7",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "2 Kg",
+            "Regeln": "Wird ein Medizin-Kit als Hilfsmittel verwendet, erhält ein Charakter auf Proben zur nicht-magischen Heilung anderer 6 BW. Ist das Medizin-Kit im automatischen Modus, kann es Charaktere in einem Umkreis von 2 Metern, die im Sterben liegen, also unter 0 LeP haben, automatisch versorgen. Dies benötigt 2 KR. Haben die Charaktere während der  Behandlung keinen Schaden genommen, werden ihre LeP auf 0+1W6 gesetzt. Es kann nur 1 Patient zur Zeit so behandelt werden. Wird das Medizin-Kit angegriffen oder bewegt, deaktiviert es sich sofort."
+        },
+        "Monduhr": {
+            "Beschreibung": "Diese einfache, tellergroße Uhr zeigt die aktuell erwarteten Mondphasen der Monde mit einfachen Zeigern an. Sie muss auf das korrekte Datum eingestellt werden, um zu funktionieren.",
+            "Kosten": "900S, 4 KoP, 10 Stunden",
+            "Voraussetzungen": "Grobmechanik 5",
+            "Talent": "Grobmechanik",
+            "Komplexität": "4",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "1 Kg",
+            "Regeln": "Proben, die mit den Mondphasen zusammenhängen, erhalten 4 BW."
+        },
+        "AutomatischesTeleskop": {
+            "Beschreibung": "Dieses Teleskop ist mit mehreren Motoren und einem Kalkulator ausgestattet, wodurch es kalibrierte Himmelskörper automatisch verfolgen kann und somit die Beobachtung des Nachthimmels trivialisiert.",
+            "Kosten": "3600S, 15 KoP, 16 Stunden",
+            "Voraussetzungen": "Grobmechanik 8, Feinmechanik 7",
+            "Talent": "Grobmechanik x2, Feinmechanik",
+            "Komplexität": "7",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "1,75 Kg",
+            "Regeln": "Das Teleskop muss auf einen Himmelskörper kalibriert werden, um diesen zu speichern und automatisch auf diesen fokussieren zu können. Hierfür ist eine Probe auf Geographie nötig, wobei die Schwierigkeit durch die Beschaffenheit(Größe, Helligkeit usw.) des Himmelskörpers und die aktuellen Umgebungsbedingungen beeinflusst wird. Nachdem ein Himmelskörper und dessen erwartete Bewegungen gespeichert wurden, kann das Teleskop sich automatisch auf diesen ausrichten. Das professionelle Ausrichten durch einen Astrologen kostet meist 400S."
+        },
+        "Universalbrille": {
+            "Beschreibung": "Eine eng anliegende Brille, die eine Vielzahl nützlicher Funktionen erfüllt. Sie kann in folgenden Modi verwandt werden s = Nachtsicht, Zoom, Fernsicht, Korrektur, Wärmeblick.",
+            "Kosten": "3700S, 17 KoP, 28 Stunden",
+            "Voraussetzungen": "Elektrizitätskunde 8, Feinmechanik 8",
+            "Talent": "Elektrizitätskunde, Feinmechanik",
+            "Komplexität": "7",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "0,25 Kg",
+            "Regeln": "",
+            "Nachtsicht": "Die Effekte von durch Dunkelheit verursachten Stufen von Geblendet werden wie 2 Stufen niedriger behandelt.",
+            "Zoom": "Der Charakter erhält 2 BW für Proben auf Feinmechanik. Es können ebenfalls für andere Proben, die eine starke Vergrößerung benötigen, BW von der SL vergeben werden.",
+            "Fernsicht": "Fernsicht erhöht die Sichtweite eines Charakters. Proben auf Wahrnehmung über große Distanzen erhalten 4 BW oder werden ermöglicht.",
+            "Korrektur": "Sehfehler des Charakters werden korrigiert und somit negiert.",
+            "Wärmeblick": "Der Charakter sieht Wärmesignaturen und kann somit auch in absoluter Dunkelheit Lebewesen erkennen."
+        },
+        "Visualisierer": {
+            "Beschreibung": "Einfacher Bildschirm, der mit analogen mitteln Bilder und Videos darstellen kann."
+        },
+        "TragbareWerkstatt": {
+            "Beschreibung": "Dieser große und schwere Koffer versteckt eine ganze Reihe unterschiedlichster Werkzeuge, Halter und autonomer Arme, die Charaktere bei unterschiedlichsten mechanischen Aufgaben unterstützen. Die Tragbare Werkstatt ist ein praktischer Ersatz für eine feste Werkstätte.",
+            "Kosten": "4800S, 21 KoP, 31 Stunden",
+            "Voraussetzungen": "Grobmechanik 10, Elektrizitätskunde 9, Feinmechanik 8",
+            "Talent": "Grobmechanik, Elektrizitätskunde",
+            "Komplexität": "9",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "7,5 Kg",
+            "Regeln": "Wird die Tragbare Werkstatt zur Konstruktion von oder Arbeit mit Mechanika genutzt, wird der eTw von Grobmechanik, Feinmechanik und Elektrizitätskunde wie 2 Stufen höher behandelt und Proben auf diese Talente erhalten 4 BW.",
+            "Besonderes": "Benötigt externe Stromzufuhr"
+        }
+    },
+    "Mechanika-Waffen": {
+        "Captura": {
+            "Beschreibung": "Die Captura ist an den Gürteln vieler Wächter in ganz Praesula zu finden. Es handelt sich um einen kleinen Ball, der geworfen werden kann und aufspringt. Im offenen Zustand hat die Captura 3 Seile, an denen Teile der ursprünglichen Kugel befestigt sind. Diese Schlingen sich bei einem Treffer um ihr Ziel und immobilisieren dieses.",
+            "Kosten": "250S, 2 KoP, 3 Stunden",
+            "Voraussetzungen": "Grobmechanik 4",
+            "Talent": "Grobmechanik",
+            "Komplexität": "3",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,5 Kg",
+            "Grundschaden": "Erfolge",
+            "Reichweite": "30/50",
+            "Modifikator": "+1 MW",
+            "Kampftalent": "Wurfwaffen",
+            "Besonderes": "Wird ein Charakter von einer Captura getroffen, erhält dieser die Kondition Gebunden. Um sich zu befreien, ist eine Probe auf Agilität oder Kraftakt nötig, wobei die Schwierigkeit die Erfolge des Wurfs +2 beträgt."
+        },
+        "Crepulus": {
+            "Beschreibung": "Die Crepulus ist eine Waffe mit Trommelmagazin, die eine schnelle Feuerrate und hohen Schaden mit sich bringt, jedoch nicht sonderlich akkurat ist.",
+            "Kosten": "3000S, 15 KoP, 35 Stunden",
+            "Voraussetzungen": "Grobmechanik 10, Feinmechanik 10",
+            "Talent": "Grobmechanik, Feinmechanik",
+            "Komplexität": "9",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "2 Kg",
+            "Grundschaden": "1W6+Erfolge",
+            "Trefferzahl": "1W6+Erfolge",
+            "Reichweite": "20/50",
+            "Munition": "Kugeln",
+            "Geschwindigkeit": "4 Aktionen(1.-3. Aktion s = Schießen[1 Probe pro Aktion], 4. Aktion s = Nachladen)",
+            "Modifikator": "+2 MW",
+            "Kampftalent": "Schnellfeuerwaffen",
+            "Besonderes": "Der VW des Gegners wird um 2 erhöht."
+        },
+        "Dampfmuskete": {
+            "Beschreibung": "Die Dampfmustkete ist eine besonders leise Waffe, die gerne von Assassinen genutzt wird. Da sie Dampfbetrieben ist, benötigt sie eine externe Dampfzufuhr. Wird sie ohne externe Dampfzufuhr genutzt, ist ihre Feuerrate extrem niedrig, da der Druck manuell aufgebaut werden muss.",
+            "Kosten": "1200S, 8 KoP, 25 Stunden",
+            "Voraussetzungen": "Grobmechanik 5, Elektrizitätskunde 4",
+            "Talent": "Grobmechanik, Elektrizitätskunde",
+            "Komplexität": "4",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "2 Kg",
+            "Grundschaden": "2W6+2+Erfolge",
+            "Reichweite": "75/140",
+            "Munition": "Kugeln",
+            "Geschwindigkeit": "4 Aktionen(1. Aktion s = Schuss, 1. Manöver s = Nachladen; 2.-4. Aktion s = Aufladen)",
+            "Modifikator": "+1 MW",
+            "Kampftalent": "Musketen",
+            "Besonderes": "Ist die Dampfmuskete an eine externe Dampfzufuhr angeschlossen, ist die Geschwindigkeit 1 Aktion(1. Aktion s = Schuss, 1. Manöver s = Nachladen)"
+        },
+        "Dampfpistole": {
+            "Beschreibung": "Diese dampfbetriebene Pistole ist äußerst leise und besonders bei Schatten beliebt. Sie kann effektiv Dolche ersetzen, muss jedoch nach mehreren Schüssen an eine externe Dampfversorgung angeschlossen werden.",
+            "Kosten": "700S, 4 KoP, 20 Stunden",
+            "Voraussetzungen": "Grobmechanik 4, Elektrizitätskunde 4",
+            "Talent": "Grobmechanik, Elektrizitätskunde",
+            "Komplexität": "3",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,5 Kg",
+            "Grundschaden": "1W6+2+Erfolge",
+            "Reichweite": "50/100",
+            "Munition": "Kugeln",
+            "Geschwindigkeit": "6 Aktionen(1.-5. Aktion s = Schuss[1 Probe pro Aktion erforderlich], 6. Aktion s = Nachladen)",
+            "Modifikator": "-",
+            "Kampftalent": "Pistolen & Faustfeuerwaffen",
+            "Besonderes": "Nachdem diese Waffe 10 Schuss abgegeben hat, muss sie an eine externe Dampfversorgung angeschlossen werden, um erneut zu funktionieren."
+        },
+        "Elektrofalle": {
+            "Beschreibung": "Diese überaus komplexe Granate gibt statt einer einfachen Explosion ein energiegeladenes Feld ab, welches Mechanika deaktivieren kann.",
+            "Kosten": "1500S, 8 KoP, 9 Stunden",
+            "Voraussetzungen": "Elektrizitätskunde 10",
+            "Talent": "Elektrizitätskunde",
+            "Komplexität": "6",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "0,25 Kg",
+            "Regeln": "Trifft die  Elektrofalle auf, entsteht im Umkreis von 3 Metern ein energiegeladenes Feld. Dieser Umgebungseffekt hält für [Erfolge der Kampfprobe] KR an. Dieses Feld deaktiviert komplexe oder  simple Mechanika, deren Qualität niedriger als die der Elektrofalle ist .",
+            "Grundschaden": "Erfolge",
+            "Reichweite": "15/20",
+            "Modifikator": "-",
+            "Kampftalent": "Wurfwaffen"
+        },
+        "Fuscus": {
+            "Beschreibung": "Die Fuscus ist eine überaus akkurate aber recht langsame schnellfeuerwaffe mit geringer Magazinkapazität. Sie wird meist für schnelles Feuer über längere Distanzen verwendet.",
+            "Kosten": "3200S, 12 KoP, 37 Stunden",
+            "Voraussetzungen": "Grobmechanik 10, Feinmechanik 9",
+            "Talent": "Grobmechanik, Feinmechanik",
+            "Komplexität": "8",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "2,5 Kg",
+            "Grundschaden": "2W6-3+Erfolge",
+            "Trefferzahl": "1W3",
+            "Reichweite": "100/250",
+            "Munition": "Kugeln",
+            "Geschwindigkeit": "3 Aktionen(1.-2. Aktion s = Schießen[1 Probe pro Aktion], 3. Aktion s = Nachladen]",
+            "Modifikator": "-",
+            "Kampftalent": "Schnellfeuerwaffen",
+            "Besonderes": "-"
+        },
+        "Harpargo": {
+            "Beschreibung": "Der Harpargo ist ein langes Gewehr, das anstatt von Kugeln einen Enterhaken feuert, der mit einem Seil an der Harpargo befestigt ist. Dies kann für das heranziehen von Gegnern, hilfe beim Klettern und viele weitere Anwendungen verwandt werden",
+            "Kosten": "2500S, 14 KoP, 20 Stunden",
+            "Voraussetzungen": "Grobmechanik 10",
+            "Talent": "Grobmechanik",
+            "Komplexität": "9",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "3,5 Kg",
+            "Regeln": "Wird der Harpargo außerhalb des Kampfes genutzt, ist eine Probe auf Musketen nötig, wobei die Schwierigkeit die Distanz bis zum Ziel/5 beträgt. Gelingt die Probe, verfängt sich der Enterhaken, und das Seil kann nach den normalen Regeln z.B. für das Klettern genutzt werden, was 2 BW auf die Probe hinzufügt. Um eine Seilbrücke, die mit dem Harpargo gespannt wurde, zu überqueren, ist eine Probe auf Athletik oder Klettern notwendig, wobei die Schwierigkeit mindestens 4 beträgt und durch unterschiedliche Faktoren erhöht werden kann.",
+            "Grundschaden": "1W6+Erfolge",
+            "Reichweite": "25/50[Höhere Distanzen sind unmöglich]",
+            "Munition": "Enterhaken",
+            "Modifikator": "+2 SW",
+            "Kampftalent": "Musketen",
+            "Besonderes": "Der Harpargo ist ein Enterhaken, der im Kampf genutzt werden kann, um Gegner an den Charakter heranzuziehen, wenn sie getroffen wurden. Hierfür müssen mindestens 6 SP erzielt worden sein. Um den Gegner näherzubringen, ist eine Vergleichsprobe auf Kraftakt nötig. Gelingt diese, zieht jeder Erfolg den Gegner 1 Meter näher an den Charakter heran."
+        },
+        "Ignimis": {
+            "Beschreibung": "Der Ignimis ist ein mit einem Gastank betriebener Flammenwerfer, der große Gebiete komplett abriegeln kann und eine überaus eindrucksvolle Waffe ist.",
+            "Kosten": "2700S, 15 KoP, 24 Stunden",
+            "Voraussetzungen": "Grobmechanik 11",
+            "Talent": "Grobmechanik",
+            "Komplexität": "10",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "2 Kg",
+            "Regeln": "Benötigt Gaskanister oder externe Dampfzufuhr zur Funktion. Es wird 1L pro 10 KR verbraucht. Das Nachladen benötigt 1 Aktion.",
+            "Grundschaden": "1W6+2",
+            "Reichweite": "10/15",
+            "Munition": "Öl",
+            "Modifikator": "+2 SW",
+            "Kampftalent": "Musketen",
+            "Besonderes": "Der Ignimis verursacht in einem Gebiet von bis zu 15 Meter in einer geraden Linie mit einem Durchmesser von einem Meter Schaden. Alle in der Linie befindlichen Charaktere können als Ziele gewählt werden, wobei für jedes Ziel eine eigene Probe gewürfelt werden muss. Die normalen Regeln für Reichweite gelten für die einzelnen Proben. Der Ignimis erhält keine MW oder SW im Nahkampf."
+        },
+        "Potiaculator": {
+            "Beschreibung": "Der Potiaculator kann unterschiedliche Tränke versprühen und ihre Effekte somit schnell und effektiv in großen Gebieten einsetzen.",
+            "Kosten": "2400S, 13 KoP, 15 Stunden",
+            "Voraussetzungen": "Grobmechanik 9, Alchemie 5",
+            "Talent": "Grobmechanik",
+            "Komplexität": "8",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "1,5 Kg",
+            "Regeln": "Der Potiaculator kann jegliche Kampftränke einsetzen, die durch den Kontakt mit Luft aktiviert werden. Granaten und Kampftränke, deren Schaden nur in der ersten Runde eintritt, verursachen diesen Schaden einmalig direkt, während andere Kampftränke die normale Dauer halten.",
+            "Grundschaden": "-",
+            "Reichweite": "15/25",
+            "Munition": "Kampftränke",
+            "Geschwindigkeit": "2 Aktionen(1. Aktion s = Schuss; 2. Aktion s = Nachladen)",
+            "Modifikator": "+1 SW",
+            "Kampftalent": "Pistolen & Faustfeuerwaffen",
+            "Besonderes": "Der Potiaculator versprüht Kampftränke in einer Kegelform vom Mündungsende ausgehend. Der Kegel hat dabei eine maximale Höhe von 25 Metern und einen Winkel von 25°. Die Kampfprobe erhält keine Erschwernis, stattdessen müssen Charaktere im Kegel eine Vergleichsprobe auf Agilität ablegen, um auszuweichen. Diese Probe erhält 2 MW, wenn Charaktere in der Mitte des Kegels befindlich sind."
+        },
+        "Vaporgre": {
+            "Beschreibung": "Die Vaporgre ist eine einfache Dampfgranate, einen dichten Nebel versprüht, der komplett undurchsichtig ist.",
+            "Kosten": "400S, 3 KoP, 4 Stunden",
+            "Voraussetzungen": "Grobmechanik 5",
+            "Talent": "Grobmechanik",
+            "Komplexität": "4",
+            "Kategorie(n)": "Simple Mechanika",
+            "Gewicht": "0,25 Kg",
+            "Regeln": "Die Vaporgre löst in einem Umkreis von 5 Metern den Umgebungsfaktor Nebelig 5 aus.",
+            "Grundschaden": "-",
+            "Modifikator": "-",
+            "Kampftalent": "Wurfwaffen",
+            "Besonderes": "Zum Werfen der Vaporgre gelten die Regeln für das Werfen von Kampftränken."
+        },
+        "Visaxt": {
+            "Beschreibung": "Die Visaxt ist eine mit energie Geladene Axt, die ihre Ziele elektrisiert.",
+            "Kosten": "600S, 4 KoP, 5 Stunden",
+            "Voraussetzungen": "Elektrizitätskunde 6, Grobmechanik 5",
+            "Talent": "Elektrizitätskunde, Grobmechanik",
+            "Komplexität": "5",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "2,5 Kg",
+            "Grundschaden": "2W6+5+Erfolge",
+            "Länge": "60-100cm",
+            "Modifikator": "+1 SW",
+            "Kampftalent": "Hiebwaffen",
+            "Besonderes": "Verursacht die Visaxt 12 oder mehr SP, muss das Ziel eine Probe auf Beherrschung ablegen, wobei die Schwierigkeit die erzielten Erfolge der Kampfprobe beträgt. Missling diese, erhält das Ziel 1 Stufe Betäubung. Benötigt alle 20 KR eine externe Stromzufuhr. Dies benötigt 2KR. Kann alternativ dauerhaft an Stromzufuhr angeschlossen sein, dies fügt jedoch 1 MW auf alle Proben hinzu."
+        },
+        "Vispeitsche": {
+            "Beschreibung": "Die Vispeitsche ist eine besonders brutale, elektrisierte Version der klassischen Peitsche. Sie wird besonders von Concilianischen Sklavern eingesetzt.",
+            "Kosten": "500S, 3 KoP, 6 Stunden",
+            "Voraussetzungen": "Elektrizitätskunde 6, Grobmechanik 5",
+            "Talent": "Elektrizitätskunde, Grobmechanik",
+            "Komplexität": "4",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "1 Kg",
+            "Grundschaden": "1W6+4+Erfolge",
+            "Länge": "200cm",
+            "Modifikator": "+2 SW",
+            "Kampftalent": "Hiebwaffen",
+            "Besonderes": "Verursacht die Vispeitsche 10 oder mehr SP, muss das Ziel eine Probe auf Beherrschung ablegen, wobei die Schwierigkeit die erzielten Erfolge der Kampfprobe beträgt. Missling diese, erhält das Ziel 1 Stufe Betäubung. Benötigt alle 20 KR eine externe Stromzufuhr. Dies benötigt 2KR. Kann alternativ dauerhaft an Stromzufuhr angeschlossen sein, dies fügt jedoch 1 MW auf alle Proben hinzu."
+        },
+        "Visschwert": {
+            "Beschreibung": "Eine elektrisierte Variante des klassischen Schwerts. Dieses kann auf unterschiedlichen Schwertern basiert sein, möglich sind ein Chepesh, Collare, Eniscul, Gladius, Kurzschwert, Langschwert, Säbel und Vulnus. Hierbei werden der feste Schadensmodifikator, die Klingenlänge, der Modifikator und besondere Eigenschaften übernommen.",
+            "Kosten": "700S, 4 KoP, 5 Stunden",
+            "Voraussetzungen": "Elektrizitätskunde 6, Grobmechanik 5",
+            "Talent": "Elektrizitätskunde, Grobmechanik",
+            "Komplexität": "5",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "1,5 Kg",
+            "Grundschaden": "2W6+3+Erfolge",
+            "Länge": "50-70cm",
+            "Modifikator": "+1 SW",
+            "Kampftalent": "Schwerter",
+            "Besonderes": "Verursacht das Visschwert 13 oder mehr SP, muss das Ziel eine Probe auf Beherrschung ablegen, wobei die Schwierigkeit die erzielten Erfolge der Kampfprobe beträgt. Missling diese, erhält das Ziel 1 Stufe Betäubung. Benötigt alle 20 KR eine externe Stromzufuhr zur Aufladung. Das Aufladen benötigt 2KR. Kann alternativ dauerhaft an Stromzufuhr angeschlossen sein, dies fügt jedoch 1 MW auf alle Proben hinzu."
+        }
+    },
+    "Mechanika-Rüstung": {
+        "Agilis": {
+            "Beschreibung": "Diese mechanische Rüstung arbeitet aktiv mit dem Träger und erlaubt diesem durch ein eingebautes Exoskelett große Bewegungsfreiheit. Dadurch kann sie auch sehr schwer sein, was zur hohen Schutzklasse führt.",
+            "Kosten": "2.000G, 20 KoP, 50 Stunden",
+            "Schutzklasse": "10",
+            "Modifikator": "0",
+            "Voraussetzungen": "Grobmechanik 12, Elektrizitätskunde 12, Feinmechanik 10",
+            "Talent": "Grobmechanik, Elektrizitätskunde, Feinmechanik",
+            "Komplexität": "9",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "180Kg.",
+            "Regeln": "Wird die Rüstung getragen, hat sie kein Gewicht für den Charakter und erhöht die Tragkraft um 20 Kg."
+        },
+        "Moturis": {
+            "Beschreibung": "Die Moturis ist eine elegante Rüstung, die die kinetische Energie von Angriffen speichern und diese dem Charakter zur Verfügung stellen kann.",
+            "Kosten": "950G,10 KoP, 40 Stunden",
+            "Schutzklasse": "8",
+            "Modifikator": "0",
+            "Voraussetzungen": "Grobmechanik 11, Elektrizitätskunde 10",
+            "Talent": "Grobmechanik, Elektrizitätskunde",
+            "Komplexität": "7",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "95 Kg",
+            "Regeln": "Das Gewicht der Moturis zählt nicht zur Tragkraft des Charakters. Der durch die Schutzklasse der Moturis absorbierte Schaden wird notiert und kann vom Charakter genutzt werden. Hierbei kann jeder absorbierte SP den Schaden eines Nahkampfangriffs um 1 erhöhen. Ebenfalls können 4 absorbierte SP genutzt werden, um Proben auf Agilität oder Kraftakt 1 BW bis zu einem Maximum von 5 BW hinzuzufügen. Die Moturis kann maximal 20 absorbierte SP speichern, und dies maximal bis zum Ende des Kampfes oder 1 Stunde, je nachdem, was länger ist"
+        },
+        "Potentia": {
+            "Beschreibung": "Rüstungen dieser Klasse sind meist einzigartige Fertigungen, die ihren Besitzern unglaublichen Schutz bieten und sie so praktisch unverwundbar machen. Aufgrund ihres elektrischen Generators und unzähliger Motoren verstärken sie außerdem den Anwender.",
+            "Kosten": "3000G, 25 KoP, 25 Stunden",
+            "Schutzklasse": "14",
+            "Modifikator": "0",
+            "Voraussetzungen": "Grobmechanik 10, Elektrizitätskunde 12, Feinmechanik 12",
+            "Talent": "Grobmechanik, Elektrizitätskunde, Feinmechanik",
+            "Komplexität": "10",
+            "Kategorie(n)": "Hochkomplexe Mechanika",
+            "Gewicht": "90 Kg",
+            "Regeln": "Wird diese Rüstung getragen, wird der VW des Charakters gegen nicht-magische Angriffe verdoppelt. Der Charakter erhält +1 auf seinen Wert in ST und alle Nahkampfangriffe erhalten 4 BW. Das Gewicht der Rüstung zählt nicht zur Tragkraft des Charakters, diese wird aber um 40 Kg erhöht."
+        },
+        "Taucheranzug": {
+            "Beschreibung": "Der Taucheranzug erlaubt einem Charakter das Tauchen in die Tiefen der Ozeane. Er ist jedoch überaus klobig und bietet wenig Bewegungs-freiheit oder Schutz vor Angriffen.",
+            "Kosten": "8000S, 25 KoP, 15 Stunden",
+            "Schutzklasse": "3",
+            "Modifikator": "8",
+            "Voraussetzungen": "Grobmechanik 10, Elektrizitätskunde 9",
+            "Talent": "Grobmechanik, Elektrizitätskunde",
+            "Komplexität": "7",
+            "Kategorie(n)": "Komplexe Mechanika",
+            "Gewicht": "30 Kg",
+            "Regeln": "Charaktere, die einen Taucheranzug tragen, erhalten 2 MW auf jede Probe, die Bewegung erfordert. Sie können auf eine Tiefe von bis zu 1000 Meter abtauchen, wobei sie nur bis zu 4 Stunden unter Wasser bleiben können. Diese Limitierung kann durch eine externe Stromversorgung eliminiert werden."
+        },
+        "Vicera": {
+            "Beschreibung": "Vicera-Rüstungen zeichnen sich durch ihre Verstärkung der natürlichen Eigenschaften des Charakters aus. Sie verstärken die Agilität und Stärke der Träger, bieten jedoch meist weniger Schutz als Rüstungen der Potentia-Klasse. Es handelt sich meist um Unikate.",
+            "Kosten": "Unikat, 12 KoP, 30 Stunden",
+            "Schutzklasse": "12",
+            "Voraussetzungen": "Grobmechanik 8, Elektrizitätskunde 10, Feinmechanik 12",
+            "Talent": "Grobmechanik, Elektrizitätskunde, Feinmechanik",
+            "Komplexität": "9",
+            "Kategorie(n)": "Hochkomplexe Mechanika",
+            "Gewicht": "60 KG",
+            "Regeln": "Der Träger erhält einen verdoppelten VW auf Ausweichen. Ebenfalls erhält er einen Bonus von +2 auf GE, RE und ST. Proben auf Agilität, Klettern, Kraftakt, Wahrnehmung, Grobmechanik und Feinmechanik erhalten 4 BW und einen um 2 erhöhten eTw. Kampfproben erhalten außerdem 2 BW. Das Gewicht der Rüstung zählt nicht zur Tragkraft des Charakters, diese wird aber um 20 Kg erhöht."
+        }
+    }
+},
+"Gebräue": {
+    "Tränke": {
+        "Confidentia": {
+            "Beschreibung": "Der Trank der Redner, Scharlatane und Unsicheren ist ein bekanntes Gebräu, welches das Selbstbewusstsein der Anwender steigert und sie sozial kompetenter macht. Es wird gerne während oder vor Reden getrunken, da es sich farblos in Wasser löst, kann jedoch auch anderen verdeckt eingeflößt werden, um diese in einem Gespräch zu unterstützen.",
+            "Voraussetzungen": "Alchemie 2",
+            "Seltenheit": "2",
+            "Komplexität": "3, 1 Stunde",
+            "Kosten": "200S(Trank)/1500S(Rezept)",
+            "Zutaten": "5KP, 1SzP(Wälder und Steppen); Morvelgras(SzP), Vinxwurzel, Stacheln vom Nachtkaktus",
+            "Rezept": "Confidentia kann innerhalb einer Freizeitstunde gebraut werden. Das rezept benötigt nur einen Kessel und keine anderen Laborteile.",
+            "Wirkung": "Eine Welle des Selbstbewusstsein fließt durch den Körper. Der Charakter erhält einen Bonus in Höhe der beim Brauen erzielten Erfolge auf alle sozialen Talente für [Erfolge] Stunden.",
+            "Beschaffenheit": "Ein dunkelblaues Gebräu mit hoher Viskosität, welches sich farblos in Wasser löst."
+        },
+        "Formatura": {
+            "Beschreibung": "Formatura ist ein beliebter Trank unter Spionen, da es dem Anwender für mehrere Stunden ein komplett neues Aussehen verschafft. Es wird auch von einigen Puella und Alben genutzt, um als menschlich aufzutreten, der trank vermag es jedoch nicht, diese effekte für Tierkinder oder andere Spezies zu verursachen.",
+            "Voraussetzungen": "Alchemie 5",
+            "Seltenheit": "3",
+            "Komplexität": "4, 5 Stunden",
+            "Kosten": "400S/2000S(Rezept)",
+            "Zutaten": "8KP, 1SzP(Wälder), 1SzP(Landschaften Concilias und südlicher Länder);",
+            "Beere": "2026-06-01T14:15:44.563Z",
+            "Rezept": "Formatura muss, zwischen den Brauvorgängen, für 10 Stunden ruhen. Der erste Brauvorgang benötigt 2 FS, der zweite 3 FS. Das Rezept benötigt komplexe Laborgeräte.",
+            "Wirkung": "Beim Trinken dieses Gebräus muss der Charakter sich die gewünschte Form vorstellen. Wenige Minuten nach der Einnahme beginnt der Körper schnell mit der Veränderung, wobei sich die gewünschten Merkmale über 1-2 Minuten manifestieren. Die Dauer der Verwandlung beträgt dabei [Erfolge] Stunden, nach Ablauf der Zeit wird der Charakter innerhalb von 10 Minuten die Veränderungen bemerken, bis sie sich komplett zurückgezogen haben.",
+            "Formatura": {},
+            "Beschaffenheit": "Ein silbernes Gebräu, mit einer ständig wechselnden Textur und Struktur. Der Trank ist nicht wasserlöslich und schwimmt abwechselnd auf oder unter Wasser."
+        },
+        "Gedächtnisstütze": {
+            "Beschreibung": "Ein einfacher Trank, der das Erinnerungsvermögen von Charakteren verbessert. Er kann auch zur Behandlung von Krankheiten eingesetzt werden, die das Erinnerungsvermögen verringern. Besonders beliebt ist er vor Gericht.",
+            "Voraussetzungen": "Alchemie 3",
+            "Seltenheit": "1",
+            "Komplexität": "2, 3 Stunden",
+            "Kosten": "150S/1250S(Rezept)",
+            "Zutaten": "6KP;",
+            "Rezept": "Gedächtnisstütze kann innerhalb von 3 FS gebraut werden. Das Rezept benötigt einige Kolben und Becher.",
+            "Wirkung": "Fokussiert sich ein Charakter nach der Einnahme dieses Tranks auf seine Erinnerungen, wird er sich an weit mehr Details erinnern können. Proben auf Wahrnehmung oder Intelligenz, um sich an Vergangenes zu erinnern, erhalten 2 automatische Erfolge. Diese Effekte halten für 1W6 Stunden an.",
+            "Beschaffenheit": "Eine grüne, geruchlose Flüssigkeit mit niedriger Viskosität."
+        },
+        "Schmieröl": {
+            "Beschreibung": "Schmieröl ist besonders in den Universitäten beliebt, da es als Aufputschmittel die Leistung eines Charakters erhöht und besonders bei Prüfungen eine große Hilfe sein kann. Es macht jedoch schnell abhängig und kann so durchaus problematische folgen haben.",
+            "Voraussetzungen": "Alchemie 6, Mechanik 1",
+            "Seltenheit": "2",
+            "Komplexität": "5, 10 Stunden",
+            "Kosten": "50S(Trank), 2500S(Rezept)",
+            "Zutaten": "2KP, 1SzP(Einfache Mechanika), 1SzP(2 KoP)",
+            "Rezept": "Das Brauen von Schmieröl benötigt 3 Tage, in denen 4 Brauvorgänge durchgeführt werden müssen. Der erste Brauvorgang benötigt 3 FS. Nach diesem muss der Trank 1 Stunde kochen. Der zweite Brauvorgang benötigt 1 FS, nach welcher der Trank 12 Stunden ruhen muss. Der Dritte Brauvorgang benötigt 3 FS, nach diesem muss der Trank für 24 Stunden unter leichter kälte ruhen. Der letzte Brauvorgang benötigt 3 FS. Schmieröl benötigt komplexes Laborequipment.",
+            "Wirkung": "1W20 Minuten nach Einnahme von Schmieröl wird der Charakter einen plötzlichen Tatendrang verspüren, der meist mit einem Kribbeln im Schädel einhergeht. Er erleidet keine Nachteile durch Übermüdung mehr und er erhält [Erfolge] BW bei jeder Probe auf Grobmechanik, Elektrizitätskunde und Feinmechanik. Dieser Effekt hält für [Erfolge] Stunden an. Nach Ablauf der Wirkung erleidet der Charakter 2 Stufen Betäubung.",
+            "Beschaffenheit": "Eine klare Flüssigkeit, in der sich immer wieder Kristalle formen, meist in Form von eingegebenen Mechanika oder anderen Zutaten.",
+            "Besonderes": "Pro Brauvorgang erhält der Charakter [Erfolge] portionen dieses Tranks."
+        },
+        "TransmutatiaMinora": {
+            "Beschreibung": "Dieser äußerst komplexe Trank ermöglicht es talentierten Trankmeistern oder reichen Käufern, sich temporär in eine andere Parto-Spezies mit einem Aussehen ihrer Wahl zu verwandeln. Es handelt sich um eine weitaus mächtigere Version von Formatura.",
+            "Voraussetzungen": "Alchemie 8",
+            "Seltenheit": "3",
+            "Komplexität": "6, 18 Stunden",
+            "Kosten": "1000S/10.000S(Rezept)",
+            "Zutaten": "8KP, 2 SzP(Höhlen), 1 SzP(Tiefe See)",
+            "Rezept": "Transmutatia Minora benötigt 2 Brauvorgänge, der erste von 10 und der zweite von 8 Stunden länge. Es müssen 12 Stunden zwischen den Brauvorgängen liegen.",
+            "Wirkung": "Dieser Trank ermöglicht es Charakteren, sich temporär in eine andere Spezies oder Subspezies der Parto zu verwandeln. Während der Einnahme muss sich der Anwender stark auf die gewünschte Spezies und das gewünschte Aussehen fokussieren. Dafür muss eine Probe auf ein beliebiges geistiges Attribut(IZ,CH,IN,WI) abgelegt werden, wobei ohne Ablenkungen die Schwierigkeit 0 beträgt und 1 Erfolg für ein Gelingen ausreichend ist. Misslingt die Probe dennoch, werden Spezies und Aussehen von der Spielleitung bestimmt. Der Charakte kann Merkmale, die sein Aussehen verändern, durch den Trank temporär neu wählen oder ablegen.Die Effekte dieses Tranks halten für [Erfolge]*2 Stunden an.",
+            "Beschaffenheit": "Eine halb durchsichtige Flüssigkeit, deren Farbe und Beschaffenheit sich konstant verändern."
+        },
+        "TransmutatiaMaiora": {
+            "Beschreibung": "Die mächtigste Form des Wandlungstranks vermag es, einen Charakter in jegliche Spezies zu verwandeln - auch gegen den eigenen Willen.",
+            "Voraussetzungen": "Alchemie 10",
+            "Seltenheit": "4",
+            "Komplexität": "8, 12 Stunden",
+            "Kosten": "-(i.d.R. nicht verkäuflich)",
+            "Zutaten": "10KP, 2 SzP(Höhlen), 1 SzP(Tiefe Seen), 1 SzP(Herz der gewünschten Spezies)",
+            "Rezept": "Transmutatia Maiora benötigt 8 Brauvorgänge über 4 Tage verteilt. Der Erste tag benötigt 4 FS. Alle weiteren Tage muss alle 12 Stunden 1 FS aufgewandt werden.",
+            "Wirkung": "Der Charakter wird temporär in eine andere Spezies verwandelt. Dies kann auch gegen seinen Willen geschehen, und dieser Trank kann auch als Kampftrank oder Gift verwandt werden. Die Verwandlung geschieht äußerst schnell innerhalb von 1KR, wobei der Charakter während dieser bewusstlos ist. Die Verwandlung dauert für [Erfolge] Minuten, oder [Erfolge]*4 KR an.",
+            "Beschaffenheit": "Eine durchsichtige, leicht glänzende Flüssigkeit."
+        },
+        "Vocia": {
+            "Beschreibung": "Dieser Trank wird allgemein als Variante von Confidentia gesehen, die besonders bei reicheren Anwendern beliebt ist und als Lieblingstrank des Adels gilt.",
+            "Voraussetzungen": "Alchemie 5",
+            "Seltenheit": "2",
+            "Komplexität": "2, 2 Stunden",
+            "Kosten": "400S/2000S(Rezept)",
+            "Zutaten": "7KP, 1 SzP(Sümpfe)",
+            "Rezept": "Vocia benötigt 2 FS und nur 1 Brauvorgang. Vocia benötigt aber komplexes Laborequipment.",
+            "Wirkung": "Nach Einnahme des Trankes wird der Anwender eine plötzliche Redelust erleben, die mit einem stark gesteigerten Selbstbewusstsein und erhöhter sozialer Kompetenz eingeht, jedoch keinerlei Leichtsinnigkeit zur Folge hat. Der Charakter erhält +[Erfolge]*2 auf seinen eTw von Diplomatie, Manipulieren, Netzwerken und Rhetorik.",
+            "Beschaffenheit": "Hellgrünes Gemisch, welches sich leicht in Wasser löst und diesem einen kaum merklichen, bläulichen Schein verleiht"
+        }
+    },
+    "Arznei": {
+        "Gegenmittel(Trank/Elixier/Gift)": {
+            "Beschreibung": "Gegenmittel sind wichtige aber schwer zu erhaltende Arznei, die die Effekte eines anderen Gebräus komplett aufheben kann.",
+            "Voraussetzungen": "Alchemie 5",
+            "Seltenheit": "3(Tränke)/4(Elixiere)/2(Gifte)",
+            "Komplexität": "3(Tränke)/5(Elixiere)/3(Gifte), 5 Stunden",
+            "Kosten": "Originales Gebräu*2/4000S(Rezept)",
+            "Zutaten": "8KP, 1SzP(Tiefe Wälder oder Sümpfe), Originales Gebräu(Verschwindend kleine Menge, verbraucht das Gebräu nicht)",
+            "Rezept": "Gegenmittel benötigen nur einen Brauvorgang, der jedoch 5 FS benötigt.",
+            "Wirkung": "Gegenmittel sind auf einen Trank, ein Elixier oder ein Gift zugeschnitten. Nach der Einnahme verschwindenach der Wirkungszeit des originalen Gebräus alle effekte des jeweiligen Mittels.",
+            "Beschaffenheit": "Unterschiedlich, meist ähnlich der Beschaffenheit des originalen Gebräus, teils jedoch auch unterschiedlich."
+        },
+        "MedicinaFrigida": {
+            "Beschreibung": "Diese einfache und beliebte Medizin kann Erkältungen und einfachen Erkrankungen vorbeugen. Es ist in praktisch jedem Medizinkabinet zu finden.",
+            "Voraussetzungen": "Alchemie 2",
+            "Seltenheit": "1",
+            "Komplexität": "1, 1 Stunde",
+            "Kosten": "40S/100S(Rezept)",
+            "Zutaten": "1KP",
+            "Rezept": "Medicina Frigida benötigt nur einen Brauvorgang, der 1 FS dauert. Zum Brauen ist nur ein Kessel nötig.",
+            "Wirkung": "Diese einfache Arznei vermag es, einfache Krankheiten und Erkältungen innerhalb weniger Stunden zu heilen oder vorzubeugen. Schwerwiegende Erkrankungen oder weit fortgeschrittene Erkältungen können jedoch nicht behandelt werden, wohl aber Symptome verbessert werden.",
+            "Beschaffenheit": "Ein dunkelgrünes Gebräu mit sehr niedriger Viskosität, welches einen süßen Nachgeschmack besitzt."
+        },
+        "Sedierung": {
+            "Beschreibung": "Dieses Mittel wird meist zur Beruhigung von Patienten verabreicht und nimmt diesen ihre Mobilität, unterdrückt jedoch auch jegliche Schmerzen.",
+            "Voraussetzungen": "Alchemie 5",
+            "Seltenheit": "1",
+            "Komplexität": "3, 4 Stunden",
+            "Kosten": "500S/2000S(Rezept)",
+            "Zutaten": "6KP",
+            "Rezept": "Sedierung benötigt 2 Brauvorgänge, die 2 Stunden außeinanderliegen müssen. Der erste Brauvorgang benötigt 3 FS, der zweite nur 1 FS. Sedierung benötigt mehrere komplexe Laborteile.",
+            "Wirkung": "Nach Einnahme kann ein Charakter die Effekte von Schmerz bis zu Stufe 5 ignorieren. Er erhält ebenfalls Paralyse 5, wobei der Abbau 1 Stunde benötigt. Mit der sinkenden Stufe von Paralyse sinkt ebenfalls die höchste Stufe Schmerz, die ignoriert werden kann, jede Stunde um 1.",
+            "Beschaffenheit": "Klare, durchsichtige Flüssigkeit mit hoher Viskosität."
+        },
+        "Vitae": {
+            "Beschreibung": "Der einfachste der Heiltränke verursacht zwar eine schnelle Heilung von Wunden, ist allerdings sehr schwach und kann nur kleinere Wunden heilen.",
+            "Voraussetzungen": "Alchemie 4",
+            "Seltenheit": "2",
+            "Komplexität": "2, 1 Stunde",
+            "Kosten": "60S/200S(Rezept)",
+            "Zutaten": "2KP",
+            "Rezept": "Vitae Ferrum benötigt nur einen Brauvorgang, der innerhalb 1 FS erledigt werden kann.",
+            "Wirkung": "Der Charakter erhält nach der Einnahme dieser Arznei direkt +1W3 LP.",
+            "Beschaffenheit": "Hellrote Flüssigkeit mit niedriger Viskosität."
+        },
+        "VitaeGallium": {
+            "Beschreibung": "Die verstärkte Version des Vitae Ferrum ist potenter und beseitigt schwere Wunden.",
+            "Voraussetzungen": "Alchemie 6",
+            "Seltenheit": "2",
+            "Komplexität": "3, 2 Stunden",
+            "Kosten": "200S/500S(Rezept)",
+            "Zutaten": "4 KP",
+            "Rezept": "Vitae Gallium benötigt nur einen Brauvorgang von 1 FS länge.",
+            "Wirkung": "Der Charakter erhält nach der Einnahme dieser Arznei direkt +1W6 LP.",
+            "Beschaffenheit": "Dunkelrote Flüssigkeit mit niedriger Viskosität."
+        },
+        "VitaePlatinum": {
+            "Beschreibung": "Diese häufig den Medicum der Wächter gegebene Arznei vermag es, die meisten Wunden in kürzester Zeit zu schließen.",
+            "Voraussetzungen": "Alchemie 8",
+            "Seltenheit": "3",
+            "Komplexität": "4, 4 Stunden",
+            "Kosten": "400S/1750S(Rezept)",
+            "Zutaten": "8 KP",
+            "Rezept": "Vitae Platinum benötigt 2 Brauvorgänge von je 2 FS länge, die keine Pausen benötigen.",
+            "Wirkung": "Der Charakter erhält nach der Einnahme dieser Arznei direkt +2W6 LeP.",
+            "Beschaffenheit": "Platinfarbene Flüssigkeit, die einen merklichen Glanz besitzt."
+        },
+        "VitaeAetherium": {
+            "Beschreibung": "Die mächtigste, klassische Variante der Heiltränke vermag es, besonders wenn sie von einem erfahrenen Trankmeister erschaffen wurde, fast alle Wunden, innerhalb weniger Sekunden vollständig zu verschließen.",
+            "Voraussetzungen": "Alchemie 10",
+            "Seltenheit": "3",
+            "Komplexität": "5, 10 Stunden",
+            "Kosten": "500S/2000S(Rezept)",
+            "Zutaten": "10 KP",
+            "Rezept": "Vitae Aetherium benötigt 4 Brauvorgänge von je 2 FS länge, die im Abstand von 3 Stunden durchgeführt werden müssen.",
+            "Wirkung": "Der Charakter erhält nach der Einnahme dieser Arznei direkt +[Erfolge]W6 LeP.",
+            "Beschaffenheit": "Hellblaue flüssigkeit, die in ständiger bewegung zu sein scheint."
+        },
+        "VitaeMagia": {
+            "Beschreibung": "Diese durch Magia verstärkte Variante des Heiltranks ist unglaublich potent und kann selbst die Wunden der gewaltigen Anguis fast sofort verschließen.",
+            "Voraussetzungen": "Alchemie 12, Arcanomagie 2",
+            "Seltenheit": "4",
+            "Komplexität": "6, 10 Stunden",
+            "Kosten": "1000S/-(Rezept)",
+            "Zutaten": "10KP, 1SzP(Magia-geladene Gebiete)",
+            "Rezept": "Vitae Magia benötigt 4 Brauvorgänge. Der erste Brauvorgang mit einer länge von 4 FS muss dabei in einer Nacht gestartet werden, in der mindestens 1 Vollmond zu sehen ist. 24 Stunden später muss der zweite Brauvorgang, der 2 FS benötigt, beginnen. Die letzten beiden brauvorgänge benötigen jeweils 2 FS und müssen im Abstand von 12-24 Stunden durchgeführt werden.",
+            "Wirkung": "Der Charakter erhält nach der Einnahme dieser Arznei direkt +[Erfolge]W20 LeP.",
+            "Beschaffenheit": "Eine dunkelblaue Flüssigkeit, in der kleine Blitze zu erkennen sind. Die Flüssigkeit folgt nicht den Regeln der Gravitation."
+        },
+        "Vitalitaetrivialis": {
+            "Beschreibung": "Dieser Trank vermag es, einem Charakter zusätzliche Energie zu verleihen und somit das LEP-Maximum anzuheben.",
+            "Voraussetzungen": "Alchemie 6",
+            "Seltenheit": "3",
+            "Komplexität": "4, 3 Stunden",
+            "Kosten": "600S/1500S(Rezept)",
+            "Zutaten": "4KP, 1SzP(Höhlen)",
+            "Rezept": "Vitalitae Trivialist benötigt 2 Brauvorgänge, die im Abstand von mindestens 2 Stunden durchgeführt werden müssen. Der erste Brauvorgang benötigt 2 FS, der zweite 1 FS.",
+            "Wirkung": "Der Charakter erhält direkt nach der Einnahme der Arznei bis zur nächsten Rast +1W3 zusätzliche LeP, wobei sein Maximum ebenfalls um den gewürfelten Wert gesteigert wird. Für alle 10 LeP, die der Charakter vor der Einnahme hatte, erhält er weitere +1W3 maximale LeP.",
+            "Beschaffenheit": "Ein oranges Getränk mit einem bitteren Nachgeschmack."
+        },
+        "Vitalitaesicera": {
+            "Beschreibung": "Die stärkere Variante des Vitalitae trivialis, welche noch mehr Energie verleiht.",
+            "Voraussetzungen": "Alchemie 8",
+            "Seltenheit": "4",
+            "Komplexität": "6, 6 Stunden",
+            "Kosten": "900S/1900S(Rezept)",
+            "Zutaten": "6KP, 2 SzP(Höhlen)",
+            "Rezept": "Vitalitae Sicera benötigt einen Brauvorgang, der 6 FS benötigt. Der Brauvorgang muss an einem Tag gestartet werden, dessen Vornacht mindestens einen Neumond gesehen hat.",
+            "Wirkung": "Der Charakter erhält direkt nach der Einnahme der Arznei bis zur nächsten Rast +1W6 zusätzliche LeP, wobei sein Maximum ebenfalls um den gewürfelten Wert gesteigert wird. Für alle 10 LeP, die der Charakter vor der Einnahme hatte, erhält er weitere +1W6 maximale LeP.",
+            "Beschaffenheit": "Ein hellbraun-orange farbenes Getränk, welches einen eindeutig alkoholischen Nachgeschmack hat."
+        },
+        "Wundtrank(Einfach)": {
+            "Beschreibung": "Diese einfache Arznei beschleunigt die natürliche Wundheilung des Körpers für eine Nacht und kann somit viele Verletzungen beseitigen.",
+            "Voraussetzungen": "Alchemie 1",
+            "Seltenheit": "1",
+            "Komplexität": "1, 1 Stunde",
+            "Kosten": "40S/100S(Rezept)",
+            "Zutaten": "1 KP",
+            "Rezept": "Der einfache Wundtrank benötigt nur 1 FS in einem Brauvorgang.",
+            "Wirkung": "Der Charakter regeneriert während der nächsten Rast zusätzlich 1W6 LeP.",
+            "Beschaffenheit": "Hellroter und dickflüssiger Trank."
+        },
+        "Wundtrank(Stark)": {
+            "Beschreibung": "Diese verstärkte Version des Wundtranks vermag es, selbst große Wunden im Verlauf von 2 Nächten zu heilen.",
+            "Voraussetzungen": "Alchemie 3",
+            "Seltenheit": "2",
+            "Komplexität": "2, 3 Stunden",
+            "Kosten": "100S/400S(Rezept)",
+            "Zutaten": "3 KP",
+            "Rezept": "Der starke Wundtrank benötigt 3 FS, die alle an einem Tag oder geteilt in 2 Brauvorgängen durchgeführt werden können.",
+            "Wirkung": "Der Charakter regeneriert während der nächsten 2 Rasten zusätzlich 2W6 LeP. Ihn durchströmt während dem Schlaf ein warmes Gefühl, welches sich meist in guten Träumen widerspiegelt.",
+            "Beschaffenheit": "Weinroter, dickflüssiger Trank mit einer spiegelglatten Oberfläche."
+        },
+        "Wundtrank(Überlegen)": {
+            "Beschreibung": "Die stärkste Version des Wundtranks hat ein sehr hohes Heilungspotential und beschleunigt über 4 Nächte die natürlichen Heilungsfähigkeiten des Körpers stark, wodurch selbst neue Wunden meist problemlos und ohne Narben verheilen.",
+            "Voraussetzungen": "Alchemie 6",
+            "Seltenheit": "2",
+            "Komplexität": "3, 6 Stunden",
+            "Kosten": "400S/900S(Rezept)",
+            "Zutaten": "5 KP",
+            "Rezept": "Der überlegene Wundtrank benötigt 2 Brauvorgänge mit einem Abstand von 5 Stunden. Der erste Brauvorgang benötigt 4 FS, der zweite 2 FS.",
+            "Wirkung": "Der Charakter regeneriert während der nächsten 4 Rasten zusätzlich 4W6 LeP. Ihn durchströmt während dem Schlaf ein warmes Gefühl, welches sich meist in guten Träumen widerspiegelt.",
+            "Beschaffenheit": "Dunkelroter, dickflüssiger Trank."
+        }
+    },
+    "Gifte": {
+        "GebrochenerWille": {
+            "Beschreibung": "Dieses Gift wird gerne mit anderen kombiniert und bricht die Fähigkeit des Körpers, sich gegen Gifte zu wehren.",
+            "Voraussetzungen": "Alchemie 7",
+            "Seltenheit": "3",
+            "Komplexität": "4, 4 Stunden",
+            "Kosten": "600S/1500S",
+            "Zutaten": "7KP, 1SzP(Sümpfe)",
+            "Rezept": "Gebrochener Wille braucht nur einen Brauvorgang, der 4 FS benötigt.",
+            "Wirkung": "Dieses Gift bricht die physische Resistenz des Opfers und macht es weitaus anfälliger für andere Gifte. Alle Proben, die KO beinhalten, also auch mit KO assoziierte Talente, erhalten [Erfolge] MW. Diese MW gelten auch für alle anderen Proben, um die effekte eines Giftes zu verhindern.",
+            "Beschaffenheit": "Eine dunkellilane flüssigkeit mit einem süßen Geruch."
+        },
+        "Geschenkder Freiheit": {
+            "Beschreibung": "Das Ziel verliert alle Hemmungen und sozialen Konventionen. Es wird hierbei jedoch nichts machen, was es nicht von vornherein machen wollte, weshalb dieses Gift recht unzuverlässig ist.",
+            "Voraussetzungen": "Alchemie 4",
+            "Seltenheit": "3",
+            "Komplexität": "3, 6 Stunden",
+            "Kosten": "500S/1500S(Rezept)",
+            "Zutaten": "5KP, 1SzP(Bergige Regionen)",
+            "Rezept": "Geschenk der Freiheit muss in zwei Brauvorgängen von je 3 FS mit einem Abstand von 4 Stunden gebraut werden.",
+            "Wirkung": "Dieses Geschenk lässt das Opfer erst eine starke Erleichterung fühlen und im Folgenden jegliche Hemmungen verlieren. Dies ist vergleichbar mit den Effekten von Alkohol auf den sozialen Umgang, jedoch deutlich stärker. Nach SL-entscheid erleidet der Charakter [Erfolge] MW auf soziale Proben. Um sich hiergegen zu wehren, muss der Charakter eine Probe auf KO ablegen, wobei die Schwierigkeit [Erfolge] beträgt.",
+            "Beschaffenheit": "Ein sehr viskoser, dunkelgrauer Trank, der sich leicht dreht."
+        },
+        "Geschenkdes Schlafes": {
+            "Beschreibung": "Dieses kurzfristig wirkende Gift lässt sein Opfer innerhalb weniger Sekunden in einen Schlaf verfallen, aus dem es zwar schon nach kurzer Zeit aufwacht - aber davor komplett in ihm versunken ist.",
+            "Voraussetzungen": "Alchemie 6",
+            "Seltenheit": "2",
+            "Komplexität": "4, 8 Stunden",
+            "Kosten": "600S/1400S(Rezept)",
+            "Zutaten": "8 KP, 1 SzP(Schlafmohn)",
+            "Rezept": "Geschenk des Schlafes muss in 2 Brauvorgängen gebraut werden. Der erste Brauvorgang benötigt 6 FS, nach einer vollen Rast kann der zweite mit einer länge von 2 FS begonnen werden.",
+            "Wirkung": "Nach 1KR schläft das Opfer ein und erhält die Kondition Bewusstlos. Es wird für [Erfolge]*5 Minuten schlafen und dann aufwachen. Nimmt das Opfer Schaden, wacht es sofort auf. Um sich hiergegen zu wehren, kann das Opfer jede KR ab der einnahme eine Probe auf Beherrschung(Sw [Erfolge]) ablegen.",
+            "Beschaffenheit": "Ein hellblauer, fast durchsichtiger Trank."
+        },
+        "Kussdes Wahns": {
+            "Beschreibung": "Der Wahn des Blutes, den dieses Gift auslöst, ist überaus zerstörerisch und lässt das Opfer jedes Lebewesen, welches es finden kann, bis zum Tod bekämpfen.",
+            "Voraussetzungen": "Alchemie 10",
+            "Seltenheit": "3",
+            "Komplexität": "8, 12 Stunden",
+            "Kosten": "800S/2000S(Rezept)",
+            "Zutaten": "8KP, 1 SzP(Haar oder Vergleichbares des Ziels)",
+            "Rezept": "Kuss des Wahns muss innerhalb eines Brauvorgangs der 12 FS benötigt gebraut werden.",
+            "Wirkung": "Dieses Gift wirkt innerhalb von 1W6 Minuten. Nach Beginn der Wirkung verfällt das Opfer in einen Wahn, in dem es alle Lebewesen in der Nähe als Feinde ansieht und diese mit allem ihm zur Verfügung stehenden Mitteln angreifen wird. Um sich hiergegen zu wehren, muss der Charakter eine Probe auf WI ablegen, wobei die Schwierigkeit [Erfolge] beträgt.",
+            "Beschaffenheit": "Eine giftgrüne Flüssigkeit, die langsam pulsiert."
+        },
+        "Schmetterlingeim Bauch": {
+            "Beschreibung": "Dieses Gift verursacht eine langsame Zersetzung der inneren Organe, die neben starken Bauchschmerzen auch innere Verletzungen hervorrufen.",
+            "Voraussetzungen": "Alchemie 8",
+            "Seltenheit": "2",
+            "Komplexität": "6, 4 Stunden",
+            "Kosten": "800S/1600S",
+            "Zutaten": "8KP, 2 SzP(Schmetterlinge)",
+            "Rezept": "Schmetterlinge im Bauch muss am Tag des schlüpfens der Schmetterlinge in 4 FS gebraut werden.",
+            "Wirkung": "Wenige Minuten nach der Einnahme erleidet das Opfer starke Bauchschmerzen und erleidet Schmerz 2. Das Gift beginnt, innere Organe langsam zu zersetzen, und verursacht so 1W3 SP/KR für [Erfolge] KR, die SK ignorieren. Um sich hiergegen zu wehren, muss der Charakter eine Probe auf KO ablegen, wobei die Schwierigkeit [Erfolge] beträgt.",
+            "Beschaffenheit": "Eine pinke flüssigkeit, in der verschwommene Blüten zu sehen sind."
+        },
+        "VerdorbeneTräume": {
+            "Beschreibung": "Dieses einfache Gift straft das Opfer mit wilden und furchteinflößenden Albträumen, die kaum richtige Erholung zulassen.",
+            "Voraussetzungen": "Alchemie 2",
+            "Seltenheit": "2",
+            "Komplexität": "1, 1 Stunde",
+            "Kosten": "100S/600S",
+            "Zutaten": "5KP",
+            "Rezept": "Verdorbene Träume muss direkt vor oder nach einer Rast innerhalb 1 FS gebrautw erden.",
+            "Wirkung": "Das Ziel hat während den nächsten [Erfolge] Rasten nach der Einnahme starke Albträume. Dadurch regeneriert das Opfer keine LeP. Das Ziel erhält außerdem nach dem Aufwachen Furcht für 1 Stunde. Dies kann vor der Rast mit einer Probe auf Beherrschung(Sw [Erfolge]) verhindert werden.",
+            "Beschaffenheit": "Eine dunkelblaue, leicht verschwommene flüssigkeit."
+        },
+        "Vergiss!": {
+            "Beschreibung": "Dieses mächtige Gift löscht die Erinnerungen des Opfers und ersetzt sie mit während der Wirkungszeiten implantierten. Da dieser Effekt für mehrere Tage anhält und mit gabe eines weiteren Vergiss! Verlängert werden kann, ist dieses Gift äußerst gefährlich.",
+            "Voraussetzungen": "Alchemie 12",
+            "Seltenheit": "4",
+            "Komplexität": "10, 12 Stunden",
+            "Kosten": "-(Selten verkäuflich)",
+            "Zutaten": "10KP, 2SzP(Bergige Regionen), 1 SzP(Adorianische Steppen)",
+            "Rezept": "Vergiss! Muss in 2 Brauvorgängen, die an 2 unterschiedlichen tagen Stattfinden müssen und je 6 FS benötige, gebraut werden.",
+            "Wirkung": "Das Opfer vergisst für [Erfolge] Tage alles, was es bis jetzt wusste. Allgemeinwissen ist hiervon ausgenommen, also wird sich das opfer weiter altersgerecht verhalten können, es wird jedoch keinerlei erinnerungen an vorherige Erfahrungen oder Wissen haben. Während der Wirkungsdauer von ca. 10 Minuten gesagte Dinge werden vom Opfer wie sichere Erinnerungen behandelt. Das Opfer kann sich direkt nach der Einnahme mit einer Probe auf  WI(Sw [Erfolge]) hiergegen wehren.",
+            "Beschaffenheit": "Eine leicht gelbe, fast transparente Flüssigkeit."
+        },
+        "Vergissmeinnicht": {
+            "Beschreibung": "Dieses Gift löscht die Erinnerungen des Opfers an eine bestimmte Person. Dies kann, besonders während der Wirkungszeit, zu großer Verwirrung führen.",
+            "Voraussetzungen": "Alchemie 8",
+            "Seltenheit": "3",
+            "Komplexität": "6, 6 Stunden",
+            "Kosten": "-/1800S(Rezept)",
+            "Zutaten": "8KP, 1SzP(Haar der zu vergessenden Person)",
+            "Rezept": "Vergissmeinnicht muss an einem Tag innerhalb von 6 FS gebraut werden, während die zu vergessende Person schläft.",
+            "Wirkung": "Der Charakter verliert über die Spanne 1 Woche -[Erfolge]/2 Tage sämtliche Erinnerungen an eine Person. Dabei wird die Erinnerung über die Person entweder gelöscht, mit Erinnerungen ohne die Person oder Erinnerungen an andere Personen ersetzt. Das Opfer kann sich nur direkt nach der Einnahme mit einer Probe auf WI(Sw [Erfolge]) hiergegen wehren.",
+            "Beschaffenheit": "In wasser gelöst transparent."
+        }
+    },
+    "Kampftränke": {
+        "Dampfflasche": {
+            "Beschreibung": "Einer der bekanntesten und beliebtesten Kampftränke, der einen undurchsichtigen Nebel in einem kleinen Gebiet verursacht.",
+            "Voraussetzungen": "Alchemie 4",
+            "Seltenheit": "1",
+            "Komplexität": "2, 4 Stunden",
+            "Kosten": "100S/500S",
+            "Zutaten": "3KP",
+            "Rezept": "Dampfflasche muss in 2 Brauvorgängen von je 2 FS länge gebraut werden, zwischen denen mindestens 30 Minuten liegen müssen.",
+            "Wirkung": "In einem Radius von 5 Metern um den Ort, an dem der Kampftrank mit der Luft in Kontakt gekommen ist, bildet sich ein dichter Nebel, der Sichteinschränkung 5 verursacht. Dieser Nebel hält für [Erfolge] KR an.",
+            "Beschaffenheit": "Eine dunkelgraue, sehr viskose Flüssigkeit."
+        },
+        "Drahtlösung": {
+            "Beschreibung": "Eine effektive Möglichkeit, um große Flächen vollständig unzugänglich zu machen. Der Boden wird mit Stacheldraht übersät, der Schaden verursacht und die Bewegung stark einschränkt.",
+            "Voraussetzungen": "Alchemie 3",
+            "Seltenheit": "2",
+            "Komplexität": "2, 1 Stunde",
+            "Kosten": "200S/1000S(Rezept)",
+            "Zutaten": "2KP, 1SzP(Drähte)",
+            "Rezept": "Drahtlösung kann innerhalb von einem Brauvorgang mit 1 FS länge gebraut werden, benötigt danach aber eine Ruhezeit von 4 Stunden, in der der Trank nicht verwandt werden kann.",
+            "Wirkung": "Diese Lösung verursacht bei Aufprall in einem Radius von [Erfolge] Metern den Umgebungsfaktor Dornig. Der Schaden beträgt hierbei anstatt der normalen 1W6/Meter [Erfolge]W3/Meter.",
+            "Beschaffenheit": "Eine durchsichtige Flüssigkeit, in der einige Drähte erkenntlich sind."
+        },
+        "Donnerschlag": {
+            "Beschreibung": "Diese einfache Blendgranate sorgt für einen unüberhörbaren Knall, der alle in der Umgebung aufschrecken lässt.",
+            "Voraussetzungen": "Alchemie 5",
+            "Seltenheit": "1",
+            "Komplexität": "3, 2 Stunden",
+            "Kosten": "300S/1200S(Rezept)",
+            "Zutaten": "4KP",
+            "Rezept": "Donnerschlag kann innerhalb von 2 FS gebraut werden.",
+            "Wirkung": "In einem Radius von 10 Metern um den Aufprall muss jeder Charakter eine probe auf Konstitution mit Schwierigkeit [Erfolge] ablegen. Missling diese Probe, erhält der Charakter Verwirrung 2 mit einem Abbau von 2 KR.",
+            "Beschaffenheit": "Eine ständig dampfende, gelbe Flüssigkeit."
+        },
+        "Fragor": {
+            "Beschreibung": "Dieser seltene Trank verursacht ein starkes Gewitter, welches entweder lokalisiert oder großflächig auftritt und jedem Wesen in seinem Umfang starken Schaden zufügt.",
+            "Voraussetzungen": "Alchemie 10",
+            "Seltenheit": "4",
+            "Komplexität": "8, 8 Stunden",
+            "Kosten": "1000S/500G(Rezept)",
+            "Zutaten": "10 KP, 1 SzP(Sumpfgräser, während eines Gewitters gesammelt), 1 SzP(Energie eines Blitzeinschlags)",
+            "Rezept": "Variante 1(Kleines Gebiet) s = Der Trank muss während der Nacht gebraut werden. Die erste Brauphase benötigt 5 FS, die zweite 3. Beide können in einer Nacht oder in aufeinanderfolgenden Nächten gefertigt werden.",
+            "Variante": {},
+            "Wirkung": "Das Gebiet, auf das der Trank geworfen wird, wird von einem plötzlich aufkommenden Gewitter heimgesucht. Es handelt sich entweder um einen 5 Meter Radius um den Aufprall(Variante 1) oder einen 5 Kilometer Radius um den Aufprall(Variante 2). Bei einem Variante 1 erleidet jeder Charakter in der Zone [Erfolge]W20 Schaden pro Kampfrunde, verdoppelt für jede Größenkategorie über Mittel. Bei Variante 2 beträgt der Schaden nur ErfolgeW6, ebenfalls multipliziert für Größenkategorien. Der Effekt bewegt sich mit dem getroffenen Objekt oder Wesen, wenn dieses als Ziel ausgewählt wurde.",
+            "Beschaffenheit": "Ein dunkelblaues Gebräu, in dem Blitze zu sehen sind."
+        },
+        "FlüchtigerWahnsinn": {
+            "Beschreibung": "Dieser äußerst gefährliche Kampftrank versetzt jeden, der ihm ausgesetzt ist in einen wahnhaften Blutrausch, der auch für den Anwender gefährlich werden kann.",
+            "Voraussetzungen": "Alchemie 6",
+            "Seltenheit": "3",
+            "Komplexität": "4, 10 Stunden",
+            "Kosten": "700S/9500S(Rezept)",
+            "Zutaten": "5 KP, 2 SzP(Wahnsporen)",
+            "Rezept": "Flüchtiger Wahnsinn muss in 5 Brauvorgängen von 2 FS, verteilt auf mindestens 2 Wochen gebraut werden.",
+            "Wirkung": "Alle Charaktere im Umkreis von 5 Metern müssen eine Probe auf Beherrschung (Sw [Erfolge]) ablegen. Misslingt die Probe, verfällt der Charakter dem Wahn. Er wird alles bewegliche in seiner Nähe mit allen ihm zur verfügung stehenden Mitteln angreifen. Er kann dabei zwar Eigenschaften einsetzen, aber keine komplexen Handlungen wie Magia ausführen. Er hat dabei keine Präferenzen für seine Ziele und kann auch von schneller Bewegung abgelenkt werden. Dieser Zustand hält  [Erfolge] KR an.",
+            "Beschaffenheit": "Eine rote, ständig in Bewegung stehende Flüssigkeit."
+        },
+        "Frostbeule": {
+            "Beschreibung": "Dieser besonders von Concilia’s Wächtern genutzte Trank verursacht einen plötzlichen Frost, der den Boden vereist und Charakteren Schaden zufügt.",
+            "Voraussetzungen": "Alchemie 4",
+            "Seltenheit": "2",
+            "Komplexität": "2, 3 Stunden",
+            "Kosten": "500S/900S",
+            "Zutaten": "6KP, SzP(Eisige Regionen)",
+            "Rezept": "Frostbeule kann an in einem Brauvorgang gebraut werden, der 3 FS benötigt, muss allerdings in einem kalten Labor gebraut werden.",
+            "Wirkung": "Nach dem Kontakt mit Luft wird in einem Radius von 5 Metern jegliches Wasser sofort gefroren und Charaktere erleiden [Erfolge]W3 Schaden. Zusätzlich erhält der gefrorene Boden den Umgebungsfaktor rutschig für 10KR.",
+            "Beschaffenheit": "Eine weiße, sehr viskose Flüssigkeit, die ihre Viskosität durch erhitzung schnell verliert."
+        },
+        "Donnergranate": {
+            "Beschreibung": "Eine einfache Granate, die einen lauten Donnerschlag und mehrere Blitze verursacht, die Charakteren in der Umgebung Schaden zufügt.",
+            "Voraussetzungen": "Alchemie 6",
+            "Seltenheit": "2",
+            "Komplexität": "4, 10 Stunden",
+            "Kosten": "500S/1300S(Rezept)",
+            "Zutaten": "6KP,  SzP(Regentropfen, gesammelt während eines Gewitters)",
+            "Rezept": "Die Donnergranate muss in 2 Brauvorgängen, der erste während des Tags und der zweite während einer Nacht, die nicht mondlos ist, gebraut werden. Der erste benötigt 4 FS, der zweite 6 FS.",
+            "Wirkung": "Alle Charaktere im Umkreis von 5 Metern erleiden 2W6 Schaden. Sie müssen ebenfalls eine Probe auf Athletik(Sw [Erfolge]) ablegen, um nicht Betäubung 2 mit 4KR Abbau zu erhalten.",
+            "Beschaffenheit": "Ein dunkelgrauer Trank, in dem sich Gewitterwolken spiegeln. Darf nicht stark geschüttelt werden, um eine Explosion zu vermeiden."
+        },
+        "Dampfgranate": {
+            "Beschreibung": "Eine überaus simple Granate, die bei Luftkontakt einen flüchtigen, heißen Dampf auslässt.",
+            "Voraussetzungen": "Alchemie 4",
+            "Seltenheit": "2",
+            "Komplexität": "3, 4 Stunden",
+            "Kosten": "300S/900S(Rezept)",
+            "Zutaten": "4 KP, 1 SzP(Dampf eines Mechanika)",
+            "Rezept": "Die Dampfgranate muss in einem Brauvorgang mit 4 FS am stück gebraut werden.",
+            "Wirkung": "Alle Charaktere im Umkreis von 5 Metern erleiden 2W6 Schaden durch einen flüchtigen und heißen Dampf, der bei Luftkontakt die Phiole sprengt.",
+            "Beschaffenheit": "Ein hellgrauer Dampf, der zu pulsieren scheint und bei Luftkontakt explodiert."
+        },
+        "Feuergranate": {
+            "Beschreibung": "Eine Feuersbrunst schießt nach dem Aufprall aus der Phiole hervor, die alles in ihrem Weg entweder verschluckt oder anzündet.",
+            "Voraussetzungen": "Alchemie 8",
+            "Seltenheit": "2",
+            "Komplexität": "6, 5 Stunden",
+            "Kosten": "1000S/2250S(Rezept)",
+            "Zutaten": "8KP, 1SzP(Brennender Holzscheit), 1SzP(Asche eines Waldbrands)",
+            "Rezept": "Die Feuergranate  benötigt 2 Brauvorgänge, zwischen denen das Kochfeuer jedoch nicht erlischen darf. Der erste benötigt 3 FS, der zweite muss 2 Stunden später begonnen werden und benötigt 2 FS.",
+            "Wirkung": "Alles in einem Radius von [Erfolge] Metern erleiden 4W6 Schaden. Charaktere müssen eine Probe auf Athletik(Sw [Erfolge]) ablegen, um nicht Sichteinschränkung 2 zu erhalten, mit einem Abbau von 2 KR. Alle getroffenen Charaktere erhalten außerdem den Zustand Brennend 2.",
+            "Beschaffenheit": "Eine kleine Menge schwarzer Flüssigkeit, über der eine konstante Flamme brennt. Bei schneller Bewegung sprengt diese die Flasche und explodiert."
+        },
+        "Teslagranate": {
+            "Beschreibung": "Diese recht unbekannte Granate verursacht schweren Schaden durch die gewaltigen Blitze, die nach ihrer Explosion um sie herum alles Zerfressen.",
+            "Voraussetzungen": "Alchemie 7",
+            "Seltenheit": "3",
+            "Komplexität": "5, 7 Stunden",
+            "Kosten": "800S/2000S(Rezept)",
+            "Zutaten": "12 KP, 1 SzP(Hochspannung, z.B. aus einer Fabrik)",
+            "Rezept": "Die Teslagranate muss in einem Brauvorgang von 7 FS dauer gebraut werden, wobei sie ständig unter Hochspannung stehen muss.",
+            "Wirkung": "Alles in einem Radius von [Erfolge] Metern erleidet 4W6 Schaden.",
+            "Beschaffenheit": "Eine transparente Flüssigkeit, durch welche Blitze schießen."
+        }
+    }
+}
+}

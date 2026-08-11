@@ -1,0 +1,326 @@
+@font-face {
+    font-family: victorianText;
+    src: url("../fonts/VictorianText.ttf");
+    font-display: swap;
+}
+/*#region Init/Debug*/
+.pt-serif {
+    font-family: "PT Serif", serif;
+}
+.grenze-gothisch {
+    font-family: "Grenze Gotisch", serif;
+}
+.playfair-display {
+    font-family: "Playfair Display", serif;
+}
+.victorian-text {
+    font-family: victorianText, serif;
+}
+/*#endregion*/
+
+/*#region General*/
+html, body {
+    overflow-x: hidden;
+}
+body {
+    background-color: #1a1a1a;
+    margin: 0px;
+    color: #fff;
+}
+h1 {
+    font-family: "Grenze Gotisch", serif;
+}
+a {
+    text-decoration: none;
+}
+p, span, a, form, h4, h5 {
+    font-family: "PT Serif", serif;
+}
+.button input {
+    display: inline;
+    border: 2px solid #D4AF34;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    color: white;
+    background-color: #00000000;
+    text-decoration: none;
+}
+.button input:hover {
+    background-color: #000000c2;
+}
+/*#endregion*/
+
+/*#region Navbar*/
+nav {
+    background-color: #1a1a1a;
+    border-bottom: solid 2px #D4AF34;
+    height: 5%;
+    width: 100vw;
+    max-width: 100vw;
+    position: fixed;
+    top: 0%;
+    white-space: nowrap;
+    min-height: 2.5em;
+    z-index: 2;
+}
+nav ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "PT Serif", serif;
+    height: 100%;
+    padding-left: 10px;
+    margin: 0px;
+    background-color: inherit;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.navContainer {
+    flex-direction: column;
+    margin-top: -45vh;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    height: fit-content;
+    padding: 15px 0px;
+    border-bottom: solid 2px #D4AF34;
+    z-index: -1;
+}
+.navContainer.selected {
+    margin-top: 5vh;
+}
+nav a {
+    height: 4vh;
+}
+li.navTitle {
+    font-size: 2em;
+    margin-right: 20px;
+}
+nav li, nav form, nav button {
+    align-content: center;
+    height: 100%;
+    padding: 0px 15px;
+    color: #fff;
+    transition: background 0.25s ease-in-out;
+}
+nav li:hover {
+    background-color: #7a7a7a40;
+}
+li.selected {
+    background-color: #414141;
+}
+nav button {
+    background: none;
+    border: none;
+    padding: 0px;
+    font-family: "PT Serif", serif;
+    cursor: pointer;
+    font-size: inherit;
+    padding-right: 0 px;
+}
+nav #modeChange {
+    margin-left: auto;
+    font-size: larger;
+}
+nav #modeChange button {
+    padding-right: 0px;
+}
+@media screen and (min-width: 992px) {
+    .navContainer {
+        flex-direction: row;
+        margin-top: 0px;
+        position: unset;
+        width: unset;
+        background: unset;
+        padding: unset;
+        padding-left: 10px;
+        height: 100%;
+        border: unset;
+        z-index: unset;
+    }
+    nav ul {
+        align-items: center;
+    }
+    nav a {
+        height: 100%;
+    }
+    nav #hamburger {
+        display: none;
+    }
+    nav button {
+        padding-right: 30px;
+    }
+}
+/*#endregion*/
+
+/*#region Header*/
+header {
+    width: 100%;
+    height: 80vh;
+    margin-top: 5vh;
+}
+header .bgContainer {
+    position: absolute;
+    top: 5%;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+}
+header .bg {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("/assets/images/psbg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #0000005c;
+    background-blend-mode: darken;
+}
+header .textContainer {
+    padding-top: 20vh;
+    padding-left: 4vw;
+    width: 100%;
+}
+header h1 {
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+header h2 {
+    font-size: 2.5em;
+    margin-top: 0px;
+    font-family: "Grenze Gotisch", serif;
+}
+header h3 {
+    font-size: 2em;
+    font-family: "Grenze Gotisch", serif;
+}
+header .buttonContainer {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+}
+@media screen and (min-width: 992px) {
+    header .textContainer {
+        width: 40%;
+    }
+}
+/*#endregion*/
+
+/*#region Main*/
+main {
+    width: 100%;
+    border-top: 2px solid #D4AF34;
+    background-color: #1a1a1a;
+}
+main section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+main h2 {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: "Grenze Gotisch", serif;
+}
+main a {
+    color: inherit;
+    text-decoration: underline;
+}
+@media screen and (min-width: 992px) { 
+    main section {
+        width: 60%;
+    }
+}
+/*#endregion*/
+
+/*#region Products*/
+main .productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+main .product {
+    background-image: url("../images/psbg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 35vw;
+    width: 35vw;
+    align-content: end;
+    text-align: center;
+    transition-duration: 0.25s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    color: #fff;
+}
+main .product:hover {
+    transform: scale(1.1);
+}
+main .product p {
+     font-family: "Playfair Display", serif;
+     margin: 0px;
+     padding: 1em 0px;
+     background-color: #00000088;
+     color: inherit;
+}
+main a.product {
+    text-decoration: none;
+}
+@media screen and (min-width: 992px) {
+    main .product {
+        height: 20vh;
+        width: 20vh;
+    }
+}
+/*#endregion*/
+
+/*#region Imprint*/
+.wideButton {
+    width: 100%;
+    background-color: #00000000;
+    border: none;
+    color: inherit;
+    transition: background 0.75s;
+    font-size: larger;
+    border-radius: 2em;
+    margin-bottom: 20px;
+}
+.wideButton:hover {
+    background-color: #00000042;
+}
+#datenschutzWrapper, #haftungWrapper {
+    display: none;
+}
+/*#endregion*/
+
+/*#region Footer*/
+footer {
+    display: grid;
+    background-color: inherit;;
+    border-top: 2px solid #D4AF34;
+    border-bottom: 2px solid #D4AF34;
+    font-family: "PT Serif", serif;
+    text-align: center;
+}
+footer a {
+    color: inherit;
+    text-decoration: underline;
+}
+footer h3 {
+    font-family: "Grenze Gotisch", serif;
+    font-size: 2em;
+}
+@media screen and (min-width: 992px) {
+    footer {
+        grid-auto-flow: column;
+    }
+}
+/*#endregion*/

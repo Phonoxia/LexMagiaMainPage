@@ -1,0 +1,136 @@
+<?php 
+// Initializes all Variables from POST; sets defaults. All pages supporting lightMode or languages require this.
+if(isset($_POST['lang'])) {
+    $_SESSION['lang'] = $_POST['lang'];
+}
+if(!isset($_SESSION['lang'])) {
+    $_SESSION['lang'] = "de";
+}
+if(isset($_POST['lightMode'])) {
+    $_SESSION['lightMode'] = !$_SESSION['lightMode'];
+}
+
+// Outputs LightMode CSS. This is only General lightMode CSS, should take the $_SESSION['lightMode'] as arg
+// For site-specific CSS, see Special LightMode CSS
+function lightMode($lightMode = false) {
+    if($lightMode) {
+        echo "
+body {
+    background-color: #fff;
+    color: #000;
+}
+main {
+    background-color: #fff;
+    color: #000;
+}
+nav {
+    background-color: #fff;
+}
+nav li, nav input, nav button{
+    color: #000;
+}
+li.selected {
+    background-color: #d9d9d9;
+}
+header {
+    color: #fff;
+}
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: #000;
+}";
+    }
+}
+// Outputs Language switching CSS
+// Does NOT include inline translations, see translate();
+function language($lang = 'de') {
+    if($lang == "en") {
+        echo "
+    .de {
+        display: none;
+    }";
+    }else if($lang == "de") {
+        echo "
+    .en {
+        display: none;
+    }";
+    }
+}
+
+
+//Translates specific inline phrases. All Inputs should be the German translation, which is outputted as default if lang is set to de.
+function translate($string = 'Error: No Translation found', $lang = 'de') {
+    if($lang == 'de') {
+        echo $string;
+        return;
+    }
+    switch($string) {
+        case 'Datenschutzerklärung':
+            if($lang == 'en') {
+                echo "Privacy Policy(currently only available in German)";
+            }
+        break;
+        case 'Haftungsausschluss und Urheberrechtshinweis':
+            if($lang == 'en') {
+                echo "Disclaimer and Copyright Notice(currently only available in German)";
+            }
+        break;
+        case 'Generieren':
+            if($lang == 'en') {
+                echo "Generate";
+            }
+        break;
+        case 'Extrawürfel würfeln':
+            if($lang == 'en') {
+                echo "Roll additional bonus dice";
+            }
+        break;
+        case 'Würfeln':
+            if($lang == 'en') {
+                echo "Roll";
+            }
+        break;
+        case 'Keine Sammelprobe Gewürfelt':
+            if($lang == 'en') {
+                echo "Nothing rolled";
+            }
+        break;
+        case 'Sammelprobe Würfeln':
+            if($lang == 'en') {
+                echo "Roll collection rolls";
+            }
+        break;
+        case 'Sammelproben':
+            if($lang == 'en') {
+                echo "Collection rolls";
+            }
+        break;
+        case 'Erweiterte Regeln':
+            if($lang == 'en') {
+                echo "Advanced Rules";
+            }
+        break;
+        case 'Zurücksetzen':
+            if($lang == 'en') {
+                echo "Reset";
+            }
+        break;
+        default:
+            echo $string;
+        break;
+    }
+}
+
+// <-- Special LightMode CSS -->
+//All Sites requiring special CSS for Lightmode are added here.
+
+//LightMode Buttons for item_picker and dice_roller
+function lightModeButtons($lightMode = false) {
+    if($lightMode) {
+        echo "
+Button:hover {
+    background-color: rgb(230, 230, 230);
+}";
+    }
+}
+
+?>
