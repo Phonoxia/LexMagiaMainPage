@@ -1,9 +1,9 @@
+/*#region Init*/
 @font-face {
     font-family: victorianText;
-    src: url("../fonts/VictorianText.ttf");
+    src: url("/assets/fonts/VictorianText.ttf");
     font-display: swap;
 }
-/*#region Init/Debug*/
 .pt-serif {
     font-family: "PT Serif", serif;
 }
@@ -196,16 +196,16 @@ header .bgActive {
     display: block;
 }
 #bg1 {
-    background-image: url("/assets/images/bgs/bg1.jpg");
+    background-image: url("/assets/images/bgs/bg1.webp");
 }
 #bg2 {
-    background-image: url("/assets/images/bgs/bg2.jpg");
+    background-image: url("/assets/images/bgs/bg2.webp");
 }
 #bg3 {
-    background-image: url("/assets/images/bgs/bg3.jpg");
+    background-image: url("/assets/images/bgs/bg3.webp");
 }
 #bg4 {
-    background-image: url("/assets/images/bgs/bg4.jpg");
+    background-image: url("/assets/images/bgs/bg4.webp");
 }
 @keyframes headerBgFadeIn {
     from {opacity: 0;}
