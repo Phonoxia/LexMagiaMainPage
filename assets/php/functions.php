@@ -23,7 +23,7 @@ function addInlineCSS($page = 'none') {
         $pairArr = explode("*/", $value);
         $pairArr[0] && $css[$pairArr[0]] = $pairArr[1];
     }
-    if(!$css) {
+    if(!isset($css)) {
         echo ".no-css{}";
         return;
     }

@@ -8,7 +8,7 @@ window.onload = function () {
 function init() {
     ["mousemove", "keydown", "scroll", "touchstart"].forEach(event=>{document.addEventListener(event, bgChangeTimer);});
     var bgNum = document.getElementsByClassName("bg").length;
-    var initBG = document.getElementById("bg"+Math.floor(Math.random() * bgNum));
+    var initBG = document.getElementById("bg"+Math.floor(Math.random() * bgNum+1));
     displayBG(initBG);
 }
 
