@@ -1,2 +1,2 @@
 # LexMagiaMainPage
-Main Page Lex Magia
+This repository contains the Lex Magia homepage.

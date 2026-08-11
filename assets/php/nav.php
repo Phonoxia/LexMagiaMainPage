@@ -6,133 +6,25 @@ function nav($selected = 'none') {
     echo '
         <nav>
             <ul>
-                <a href="index"><li class="navTitle victorian-text">Project Steam</li></a>
-                <ul class="navContainer de">';
-
-switch($selected) {
-    case 'home':
-        echo '
-                <a href="index"><li class="selected">Startseite</li></a>
-                    <a href="downloads"><li>Downloads</li></a>
-                    <!--<a href="about"><li>Über Project Steam</li></a>-->
-                    <a href="dice_roller"><li>Würfelapp</li></a>
-                    <a href="item_picker"><li>ObjektGen</li></a>
+                <a href="/index"><li class="navTitle victorian-text">Project Steam</li></a>
+                <ul class="navContainer de">
+                <a href="/index"><li'.isSelected($selected, 'home').'>Startseite</li></a>
+                    <a href="/downloads"><li'.isSelected($selected, 'downloads').'>Downloads</li></a>
+                    <!--<a href="/about"><li'.isSelected($selected, 'about').'>Über Project Steam</li></a>-->
+                    <a href="/dice_roller"><li'.isSelected($selected, 'dice_roller').'>Würfelapp</li></a>
+                    <a href="/item_picker"><li'.isSelected($selected, 'item_picker').'>ObjektGen</li></a>
                     <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="imprint"><li>Impressum</li></a>
+                    <a href="/imprint"><li'.isSelected($selected, 'imprint').'>Impressum</li></a>
                 </ul>
                 <ul class="navContainer en">
-                    <a href="index"><li class="selected">Home</li></a>
-                    <a href="downloads"><li>Downloads</li></a>
-                    <!--<a href="about"><li>Über Project Steam</li></a>-->
-                    <a href="dice_roller"><li>Dice Roller</li></a>
-                    <a href="item_picker"><li>ObjektGen</li></a>
+                    <a href="/index"><li'.isSelected($selected, 'home').'>Home</li></a>
+                    <a href="/downloads"><li'.isSelected($selected, 'downloads').'>Downloads</li></a>
+                    <!--<a href="/about"><li'.isSelected($selected, 'about').'>Über Project Steam</li></a>-->
+                    <a href="/dice_roller"><li'.isSelected($selected, 'dice_roller').'>Dice Roller</li></a>
+                    <a href="/item_picker"><li'.isSelected($selected, 'item_picker').'>ObjektGen</li></a>
                     <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="imprint"><li>Contact</li></a>
-                </ul>';
-    break;
-    case 'downloads':
-        echo '
-                <a href="index"><li>Startseite</li></a>
-                    <a href="downloads"><li class="selected">Downloads</li></a>
-                    <!--<a href="about"><li>Über Project Steam</li></a>-->
-                    <a href="dice_roller"><li>Würfelapp</li></a>
-                    <a href="item_picker"><li>ObjektGen</li></a>
-                    <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="imprint"><li>Impressum</li></a>
+                    <a href="/imprint"><li'.isSelected($selected, 'imprint').'>Contact</li></a>
                 </ul>
-                <ul class="navContainer en">
-                    <a href="index"><li>Home</li></a>
-                    <a href="downloads"><li class="selected">Downloads</li></a>
-                    <!--<a href="about"><li>Über Project Steam</li></a>-->
-                    <a href="dice_roller"><li>Dice Roller</li></a>
-                    <a href="item_picker"><li>ObjektGen</li></a>
-                    <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="imprint"><li>Contact</li></a>
-                </ul>';
-    break;
-    case 'dice_roller':
-        echo '
-                <a href="index"><li>Startseite</li></a>
-                    <a href="downloads"><li>Downloads</li></a>
-                    <!--<a href="about"><li>Über Project Steam</li></a>-->
-                    <a href="dice_roller"><li class="selected">Würfelapp</li></a>
-                    <a href="item_picker"><li>ObjektGen</li></a>
-                    <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="imprint"><li>Impressum</li></a>
-                </ul>
-                <ul class="navContainer en">
-                    <a href="index"><li>Home</li></a>
-                    <a href="downloads"><li>Downloads</li></a>
-                    <!--<a href="about"><li>Über Project Steam</li></a>-->
-                    <a href="dice_roller"><li class="selected">Dice Roller</li></a>
-                    <a href="item_picker"><li>ObjektGen</li></a>
-                    <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="imprint"><li>Contact</li></a>
-                </ul>';
-    break;
-    case 'item_picker':
-        echo '
-                <a href="index"><li>Startseite</li></a>
-                    <a href="downloads"><li>Downloads</li></a>
-                    <!--<a href="about"><li>Über Project Steam</li></a>-->
-                    <a href="dice_roller"><li>Würfelapp</li></a>
-                    <a href="item_picker"><li class="selected">ObjektGen</li></a>
-                    <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="imprint"><li>Impressum</li></a>
-                </ul>
-                <ul class="navContainer en">
-                    <a href="index"><li>Home</li></a>
-                    <a href="downloads"><li>Downloads</li></a>
-                    <!--<a href="about"><li>Über Project Steam</li></a>-->
-                    <a href="dice_roller"><li>Dice Roller</li></a>
-                    <a href="item_picker"><li class="selected">ObjektGen</li></a>
-                    <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="imprint"><li>Contact</li></a>
-                </ul>';
-    break;
-    case 'imprint':
-        echo '
-                <a href="index"><li>Startseite</li></a>
-                    <a href="downloads"><li>Downloads</li></a>
-                    <!--<a href="about"><li>Über Project Steam</li></a>-->
-                    <a href="dice_roller"><li>Würfelapp</li></a>
-                    <a href="item_picker"><li>ObjektGen</li></a>
-                    <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="imprint"><li class="selected">Impressum</li></a>
-                </ul>
-                <ul class="navContainer en">
-                    <a href="index"><li>Home</li></a>
-                    <a href="downloads"><li>Downloads</li></a>
-                    <!--<a href="about"><li>Über Project Steam</li></a>-->
-                    <a href="dice_roller"><li>Dice Roller</li></a>
-                    <a href="item_picker"><li>ObjektGen</li></a>
-                    <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="imprint"><li class="selected">Contact</li></a>
-                </ul>';
-    break;
-    default: 
-        echo '
-                <a href="index"><li>Startseite</li></a>
-                    <a href="downloads"><li>Downloads</li></a>
-                    <!--<a href="about"><li>Über Project Steam</li></a>-->
-                    <a href="dice_roller"><li>Würfelapp</li></a>
-                    <a href="item_picker"><li>ObjektGen</li></a>
-                    <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="imprint"><li>Impressum</li></a>
-                </ul>
-                <ul class="navContainer en">
-                    <a href="index"><li>Home</li></a>
-                    <a href="downloads"><li>Downloads</li></a>
-                    <!--<a href="about"><li>Über Project Steam</li></a>-->
-                    <a href="dice_roller"><li>Dice Roller</li></a>
-                    <a href="item_picker"><li>ObjektGen</li></a>
-                    <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="imprint"><li>Contact</li></a>
-                </ul>';
-    break;
-}
-
-    echo '
                 <form method="post" id="modeChange">
                     <input type="hidden" name="lightMode" value="1">
                     <button type="submit">&#9728;</button>
@@ -148,5 +40,10 @@ switch($selected) {
                 </button>
             </ul>
         </nav>';
+}
+function isSelected($selected, $current) {
+    if($selected == $current) {
+        return ' class="selected"';
+    }
 }
 ?>

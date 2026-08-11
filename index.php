@@ -19,7 +19,7 @@ include 'assets/php/functions.php';
     <body>
         <?php nav('home'); ?>
         <header>
-            <!-- This is written to allow future integration of rotating Backgrounds. -->
+            <!-- This is designed to allow future integration of rotating Backgrounds. -->
             <div class="bgContainer">
                 <div class="bg"></div>
                 <!--<div class="bg"></div>-->

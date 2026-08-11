@@ -95,10 +95,13 @@ nav ul {
     margin-top: 5vh;
 }
 nav a {
+    height: 100%;
+}
+.navContainer a {
     height: 4vh;
 }
 li.navTitle {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-right: 20px;
 }
 nav li, nav form, nav button {
@@ -107,6 +110,7 @@ nav li, nav form, nav button {
     padding: 0px 15px;
     color: #fff;
     transition: background 0.25s ease-in-out;
+    margin-bottom: 0px;
 }
 nav li:hover {
     background-color: #7a7a7a40;
@@ -146,7 +150,7 @@ nav #modeChange button {
     nav ul {
         align-items: center;
     }
-    nav a {
+    .navContainer a {
         height: 100%;
     }
     nav #hamburger {
@@ -154,6 +158,9 @@ nav #modeChange button {
     }
     nav button {
         padding-right: 30px;
+    }
+    li.navTitle {
+        font-size: 2em;
     }
 }
 /*#endregion*/
@@ -167,7 +174,7 @@ header {
 header .bgContainer {
     position: absolute;
     top: 5%;
-    height: 80%;
+    height: 80vh;
     width: 100%;
     z-index: -1;
 }
@@ -184,8 +191,8 @@ header .bg {
 }
 header .textContainer {
     padding-top: 20vh;
-    padding-left: 4vw;
     width: 100%;
+    text-align: center;
 }
 header h1 {
     font-size: 4em;
@@ -209,6 +216,8 @@ header .buttonContainer {
 @media screen and (min-width: 992px) {
     header .textContainer {
         width: 40%;
+        text-align: left;
+        padding-left: 4vw;
     }
 }
 /*#endregion*/
