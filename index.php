@@ -9,7 +9,6 @@ include 'assets/php/functions.php';
     <head>
         <?php include 'assets/php/head.php'?>
         <title>Project Steam</title>
-        <link rel="preload" as="image" href="/assets/images/bgs/bg3.webp" fetchpriority="high">
         <style>
         <?php 
         addInlineCSS($page);

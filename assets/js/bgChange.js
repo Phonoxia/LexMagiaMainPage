@@ -28,7 +28,7 @@ function changeBG() {
     }
 
     var newActive = currentActive.nextElementSibling;
-    if(!newActive) {
+    if(!newActive || newActive.nodeName != 'DIV') {
         newActive = document.getElementsByClassName("bg")[0];
     }
 
