@@ -26,7 +26,7 @@ include 'assets/php/functions.php';
                 <div class="bg" id="bg2"></div>
                 <div class="bg" id="bg3"></div>
                 <div class="bg" id="bg4"></div>
-                <noscript><div class="bg bgActive" id="bg3" style="opacity: 1;"></div></noscript>
+                <noscript><div class="bg bgActive" id="bg3ns" style="opacity: 1;"></div></noscript>
             </div>
             <div class="textContainer">
                 <h1>Project Steam</h1>

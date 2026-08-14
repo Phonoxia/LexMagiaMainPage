@@ -31,7 +31,7 @@ function nav($selected = 'none') {
                 </form>
                 <form method="post">
                     <button type="submit" class="de" name="lang" value="en">EN</button>
-                    <button type="submit"class="en" name="lang" value="de">DE</button>
+                    <button type="submit" class="en" name="lang" value="de">DE</button>
                 </form>
                 <button id="hamburger" class="hamburger hamburger--squeeze" onClick="changeNav();" aria-label="Navigation">
                     <span class="hamburger-box">

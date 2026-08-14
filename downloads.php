@@ -22,7 +22,7 @@ $page = 'downloads';
         <main>
             <section>
                 <h2>Downloads</h2>
-                <p>As Project Steam is still in development, there are no english versions of the books available yet. If you want to, you may of course still download the german versions.</p>
+                <p class="en">As Project Steam is still in development, there are no english versions of the books available yet. If you want to, you may of course still download the german versions.</p>
                 <div class="productContainer">
                     <a class="product" href="download/1.1 Grundregelwerk V0.0.1.7" target="_blank" style="background-image: url('assets/images/grwBG.webp')">
                         <p class="de">Grundregelwerk</p>

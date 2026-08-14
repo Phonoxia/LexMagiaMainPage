@@ -125,7 +125,7 @@ nav button {
     font-family: "PT Serif", serif;
     cursor: pointer;
     font-size: inherit;
-    padding-right: 0 px;
+    padding-right: 0px;
 }
 nav #modeChange {
     margin-left: auto;
@@ -201,7 +201,7 @@ header .bgActive {
 #bg2 {
     background-image: url("/assets/images/bgs/bg2.webp");
 }
-#bg3 {
+#bg3, #bg3ns {
     background-image: url("/assets/images/bgs/bg3.webp");
 }
 #bg4 {

@@ -1,7 +1,7 @@
         <footer>
             <section>
                 <h3>Links</h3>
-                <p><a href="download/1.1 Grundregelwerk V0.0.1.7.pdf" target="_blank">Grundregelwerk</a></p>
+                <p><a href="download/1.1%20Grundregelwerk%20V0.0.1.7.pdf" target="_blank">Grundregelwerk</a></p>
                 <p><a href="https://drive.google.com/drive/folders/1DcS2qBjxauybI8wBHY2kaj3U08wHVTzB?usp=drive_link" target="_blank">Google Drive</a></p>
             </section>
             <section>
