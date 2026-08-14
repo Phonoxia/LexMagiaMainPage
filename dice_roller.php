@@ -4,8 +4,6 @@ include 'assets/php/nav.php';
 include 'assets/php/functions.php';
 $page = 'dice_roller';
 ?>
-<!DOCTYPE html>
-<html>
     <head>
         <?php include 'assets/php/head.php' ?>
         <title>Würfelapp</title>

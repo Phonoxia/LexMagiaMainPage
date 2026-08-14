@@ -4,8 +4,6 @@ include 'assets/php/nav.php';
 include 'assets/php/functions.php';
 $page = 'imprint';
 ?>
-<!DOCTYPE html>
-<html lang="de">
     <head>
         <?php include 'assets/php/head.php' ?>
         <title>Impressum</title>

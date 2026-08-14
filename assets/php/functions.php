@@ -10,6 +10,9 @@ if(isset($_POST['lightMode'])) {
     $_SESSION['lightMode'] = !$_SESSION['lightMode'];
 }
 
+echo "<!DOCTYPE html>
+<html lang=".$_SESSION['lang'].">";
+
 // Add critical CSS to inline.
 // Needs a page to work, displays ".no-inline{} otherwise.
 // Outputs .no-css{} on error.

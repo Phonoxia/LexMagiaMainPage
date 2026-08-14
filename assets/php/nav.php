@@ -5,25 +5,25 @@
 function nav($selected = 'none') {
     echo '
         <nav>
-            <ul>
-                <a href="/index"><li class="navTitle victorian-text">Project Steam</li></a>
+            <div>
+                <p class="navTitle victorian-text"><a href="/index">Project Steam</a></p>
                 <ul class="navContainer de">
-                <a href="/index"><li'.isSelected($selected, 'home').'>Startseite</li></a>
-                    <a href="/downloads"><li'.isSelected($selected, 'downloads').'>Downloads</li></a>
-                    <!--<a href="/about"><li'.isSelected($selected, 'about').'>Über Project Steam</li></a>-->
-                    <a href="/dice_roller"><li'.isSelected($selected, 'dice_roller').'>Würfelapp</li></a>
-                    <a href="/item_picker"><li'.isSelected($selected, 'item_picker').'>ObjektGen</li></a>
-                    <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="/imprint"><li'.isSelected($selected, 'imprint').'>Impressum</li></a>
+                    <li'.isSelected($selected, 'home').'><a href="/index">Startseite</a></li>
+                    <li'.isSelected($selected, 'downloads').'><a href="/downloads">Downloads</a></li>
+                    <!--<li'.isSelected($selected, 'about').'><a href="/about">Über Project Steam</a></li>-->
+                    <li'.isSelected($selected, 'dice_roller').'><a href="/dice_roller">Würfelapp</a></li>
+                    <li'.isSelected($selected, 'item_picker').'><a href="/item_picker">ObjektGen</a></li>
+                    <li><a href="https://wiki.bollmann-hb.de" target="_blank">Wiki</a></li>
+                    <li'.isSelected($selected, 'imprint').'><a href="/imprint">Impressum</a></li>
                 </ul>
                 <ul class="navContainer en">
-                    <a href="/index"><li'.isSelected($selected, 'home').'>Home</li></a>
-                    <a href="/downloads"><li'.isSelected($selected, 'downloads').'>Downloads</li></a>
-                    <!--<a href="/about"><li'.isSelected($selected, 'about').'>Über Project Steam</li></a>-->
-                    <a href="/dice_roller"><li'.isSelected($selected, 'dice_roller').'>Dice Roller</li></a>
-                    <a href="/item_picker"><li'.isSelected($selected, 'item_picker').'>ObjektGen</li></a>
-                    <a href="https://wiki.bollmann-hb.de" target="_blank"><li>Wiki</li></a>
-                    <a href="/imprint"><li'.isSelected($selected, 'imprint').'>Contact</li></a>
+                    <li'.isSelected($selected, 'home').'><a href="/index">Home</a></li>
+                    <li'.isSelected($selected, 'downloads').'><a href="/downloads">Downloads</a></li>
+                    <!--<li'.isSelected($selected, 'about').'><a href="/about">Über Project Steam</a></li>-->
+                    <li'.isSelected($selected, 'dice_roller').'><a href="/dice_roller">Dice Roller</a></li>
+                    <li'.isSelected($selected, 'item_picker').'><a href="/item_picker">ObjektGen</a></li>
+                    <li><a href="https://wiki.bollmann-hb.de" target="_blank">Wiki</a></li>
+                    <li'.isSelected($selected, 'imprint').'><a href="/imprint">Contact</a></li>
                 </ul>
                 <form method="post" id="modeChange">
                     <input type="hidden" name="lightMode" value="1">
@@ -38,7 +38,7 @@ function nav($selected = 'none') {
                         <span class="hamburger-inner"></span>
                     </span>
                 </button>
-            </ul>
+            </div>
         </nav>';
 }
 function isSelected($selected, $current) {

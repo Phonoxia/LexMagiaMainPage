@@ -4,7 +4,6 @@ include 'assets/php/nav.php';
 include 'assets/php/functions.php';
 $page = 'item_picker';
 ?>
-<html>
     <head>
         <?php include 'assets/php/head.php' ?>
         <title>Item Picker</title>

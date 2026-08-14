@@ -4,8 +4,6 @@ $page = 'home';
 include 'assets/php/nav.php';
 include 'assets/php/functions.php';
 ?>
-<!DOCTYPE html>
-<html lang="de">
     <head>
         <?php include 'assets/php/head.php'?>
         <title>Project Steam</title>
