@@ -13,6 +13,7 @@ function nav($selected = 'none') {
                     <!--<li'.isSelected($selected, 'about').'><a href="/about">Über Project Steam</a></li>-->
                     <li'.isSelected($selected, 'dice_roller').'><a href="/dice_roller">Würfelapp</a></li>
                     <li'.isSelected($selected, 'item_picker').'><a href="/item_picker">ObjektGen</a></li>
+                    <li'.isSelected($selected, 'campaigns').'><a href="/campaigns">Kampagnen</a></li>
                     <li><a href="https://wiki.bollmann-hb.de" target="_blank">Wiki</a></li>
                     <li'.isSelected($selected, 'imprint').'><a href="/imprint">Impressum</a></li>
                 </ul>
@@ -22,6 +23,7 @@ function nav($selected = 'none') {
                     <!--<li'.isSelected($selected, 'about').'><a href="/about">Über Project Steam</a></li>-->
                     <li'.isSelected($selected, 'dice_roller').'><a href="/dice_roller">Dice Roller</a></li>
                     <li'.isSelected($selected, 'item_picker').'><a href="/item_picker">ObjektGen</a></li>
+                    <li'.isSelected($selected, 'campaigns').'><a href="/campaigns">Campaigns</a></li>
                     <li><a href="https://wiki.bollmann-hb.de" target="_blank">Wiki</a></li>
                     <li'.isSelected($selected, 'imprint').'><a href="/imprint">Contact</a></li>
                 </ul>

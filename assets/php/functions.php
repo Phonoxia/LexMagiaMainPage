@@ -48,6 +48,9 @@ function addInlineCSS($page = 'none') {
         case 'dice_roller':
             echo $css['Main'];
         break;
+        case 'campaigns':
+            echo $css['Main'].$css['Products'].$css['Footer'];
+        break;
         default:
             echo ".no-inline{}";
         break;

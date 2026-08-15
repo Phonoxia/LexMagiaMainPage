@@ -6,7 +6,7 @@ include 'assets/php/functions.php';
 ?>
     <head>
         <?php include 'assets/php/head.php'?>
-        <title>Project Steam</title>
+        <title>Lex Magia</title>
         <style>
         <?php 
         addInlineCSS($page);
@@ -27,7 +27,7 @@ include 'assets/php/functions.php';
                 <noscript><div class="bg bgActive" id="bg3ns" style="opacity: 1;"></div></noscript>
             </div>
             <div class="textContainer">
-                <h1>Project Steam</h1>
+                <h1>Lex Magia</h1>
                 <h2 class="de">Ein Steampunk Rollenspiel</h2>
                 <h2 class="en">A Steampunk RPG</h2>
                 <h3>Pre-Alpha</h3>
@@ -38,10 +38,10 @@ include 'assets/php/functions.php';
             <section>
                 <h2 class="de">Willkommen in Gehenna</h2>
                 <h2 class="en">Welcome to Gehenna</h2>
-                <p class="de">Salve Legens und Willkommen in der Welt von <i>Project Steam</i>. Wie du vielleicht bereits in der Überschrift gelesen hast, ist Project Steam weiterhin in einer Pre-Alpha-Phase. Neben den Büchern betrifft das auch diese Website - einige Seiten sind nicht verfügbar und die Website ist nicht auf Suchmaschinen gelistet.<br>
+                <p class="de">Salve Legens und Willkommen in der Welt von <i>Lex</i>. Wie du vielleicht bereits in der Überschrift gelesen hast, ist Lex magia weiterhin in einer Pre-Alpha-Phase. Neben den Büchern betrifft das auch diese Website - einige Seiten sind nicht verfügbar und die Website ist nicht auf Suchmaschinen gelistet.<br>
                 Dennoch wirst du hier alle wichtigen Infos zum aktuellen Stand des Projekts finden, natürlich neben allen wichtigen Tools wie der Würfelapp oder dem ObjektGenerator.</p>
-                <p class="en">Salve Legens and welcome to the world of <i>Project Steam</i>, a steampunk RPG currently in pre-alpha. That doesn't only apply to the books - this website is still in pre-alpha and will frequently change.<br>
-                All updates to Project Steam will be published here, as well as the expanding set of tools, like the dice roller. Have fun playing!</p>
+                <p class="en">Salve Legens and welcome to the world of <i>Lex magia</i>, a steampunk RPG currently in pre-alpha. That doesn't only apply to the books - this website is still in pre-alpha and will frequently change.<br>
+                All updates to Lex magia will be published here, as well as the expanding set of tools, like the dice roller. Have fun playing!</p>
             </section>
         </main>
         <?php include "assets/php/footer.php"; ?>
