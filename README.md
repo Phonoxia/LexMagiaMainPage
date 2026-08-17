@@ -1,5 +1,5 @@
 # Lex Magia - Mainpage
-This repository contains the Lex Magia homepage, currently located at [rpg.bollmann-hb.de](rpg.bollmann-hb.de). 
+This repository contains the Lex Magia homepage, currently hosted at [rpg.bollmann-hb.de](https://rpg.bollmann-hb.de). 
 ## Installation
 ### Requirments
 Your Server or local installation needs a way to execute php-files(Version 8.2 or later, tested up to 8.5).
