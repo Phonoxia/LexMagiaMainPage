@@ -681,7 +681,7 @@ function rollMultipleDice() {
             console.debug("Teilprobe " + i + ": " + JSON.stringify(spResultsTMP[0]));
         }
         spResults[0] = addResults(spResultsTMP[0], spResults[0]);
-        successRatingText, noValue = computeText(spResultsTMP[0]);
+        successRatingText = computeText(spResultsTMP[0])[0];
         if (successRatingText.includes("Kritischer Erfolg")) {
             spResultSum.critSuc +=1;
             spResultSum.suc += 1;
@@ -695,20 +695,40 @@ function rollMultipleDice() {
         }
     }
     var textResult = "";
+    var textResultEN = "";
     var successCombined  = (spResults[0].successes + spResults[0].critSuccesses *2) - (spResults[0].failures + spResults[0].critFailures *2);
     var successText = "";
+    var successTextEN = "";
     if(successCombined >= 0) {
         successText = successCombined + "\xa0Erfolge";
+        successTextEN = successCombined + "\xa0successes";
     }else {
         successText = successCombined*(-1) + "\xa0Fehler";
+        successTextEN = successCombined*(-1) + "\xa0failures";
     }
-    textResult = "Sammelprobe: " + spResultSum.suc + "/" + spCount + "\xa0Proben bestanden(" + spResultSum.suc/spCount*100 + "%). Insgesamt "+ successText + ".";
+    textResult = "Sammelprobe: " + spResultSum.suc + "/" + spCount + "\xa0Proben bestanden(" + round(spResultSum.suc/spCount*100) + "%). Insgesamt "+ successText + ".";
+    textResultEN = "Collection Roll: " + spResultSum.suc + "/" + spCount + "\xa0successfull rolls(" + round(spResultSum.suc/spCount*100) + "%). Total of "+ successText + ".";
     if(spResultSum.critSuc > 0 || spResultSum.critFail > 0) {
         textResult += " Davon " + spResultSum.critSuc + "\xa0kritische Erfolge und " + spResultSum.critFail + "\xa0kritische Fehler.";
+        textResultEN += " Additional " + spResultSum.critSuc + "\xa0critical successes and " + spResultSum.critFail + "\xa0critical Failures.";
     }
     if(spCount <= 0 || diceNumbers.tw == 0 && diceNumbers.sw == 0 && diceNumbers.bw == 0 && diceNumbers.mw == 0) {
         textResult = "Keine Würfel gewürfelt.";
+        textResultEN = "No dice were rolled.";
     }
     console.log(textResult);
-    document.getElementById("spRes").textContent = textResult;
+    deTextElem = document.createElement("p");
+    enTextElem = document.createElement("p");
+    document.getElementById("spRes").textContent = "";
+    deTextElem.classList.add("de");
+    deTextElem.textContent = textResult;
+    enTextElem.classList.add("en");
+    enTextElem.textContent = textResultEN;
+    document.getElementById("spRes").appendChild(deTextElem);
+    document.getElementById("spRes").appendChild(enTextElem);
+    
+}
+
+function round(x, places = 2) {
+    return Number.parseFloat(x).toFixed(places);
 }
